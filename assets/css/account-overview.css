@@ -1,0 +1,54 @@
+/* The overview is a responsive page, with the original assets, values and controls. */
+.screen.account-overview{position:relative!important;inset:auto!important}
+.account-overview>[data-node-id="1564:1947"]{margin-top:0}
+.screen.account-overview{--account-gutter:clamp(24px,4vw,64px);width:100%!important;height:auto!important;min-height:0;transform:none!important;display:flex;flex-direction:column;overflow:visible!important;background:#f7f7f7!important}
+.account-overview>.header{position:relative!important;inset:auto!important;width:100%!important;height:76px!important;flex:none;padding:0 var(--account-gutter)!important;gap:24px!important;align-items:center!important;background:#fff!important}
+.account-overview .header .node{position:relative!important;left:auto!important;top:auto!important}
+.account-overview .header>.node{width:auto!important;height:76px!important;padding:0!important;gap:24px!important;flex:1;align-items:center!important}
+.account-overview .header>.node:nth-child(2){flex:0 0 144px;justify-content:center!important}
+.account-overview .header>.node:last-child{justify-content:flex-end!important}
+.account-overview .header [data-name^="Header /"]{width:auto!important;height:40px!important;gap:8px!important;align-items:center!important}
+.account-overview .header [data-name^="Icon /"]{width:20px!important;height:20px!important}
+.account-overview .header .text{font-size:12px!important;font-weight:400!important;line-height:20px!important;width:auto!important;height:auto!important;white-space:nowrap}
+.account-overview .header [data-name="Brand / ULAB / Home"]{width:112px!important;height:40px!important}
+.account-overview>[data-node-id="1562:1904"]{position:relative!important;inset:auto!important;width:100%!important;height:60px!important;flex:none;padding:0 var(--account-gutter)!important;gap:32px!important;align-items:center!important;background:#fff!important;border-bottom:1px solid #e8e8e8}
+.account-overview>[data-node-id="1562:1904"]>.node{position:relative!important;inset:auto!important;width:auto!important;flex-shrink:0;height:60px!important;padding:0!important;align-items:center!important;justify-content:center!important}
+.account-overview>[data-node-id="1562:1904"]>.text{height:auto!important;margin-right:auto;font-size:14px!important;line-height:22px!important}
+.account-overview>[data-node-id="1562:1904"] .node .text{position:relative!important;inset:auto!important;width:auto!important;height:auto!important;font-size:12px!important;line-height:20px!important;white-space:nowrap}
+.account-overview-hero{position:relative;height:clamp(220px,20vw,320px);flex:none;overflow:hidden;color:#fff}
+.account-overview-hero>[data-node-id="1562:1921"]{inset:0!important;width:100%!important;height:100%!important}
+.account-overview-hero::after{content:'';position:absolute;inset:45% 0 0;background:linear-gradient(transparent,#10101445);pointer-events:none}
+.account-overview-hero>.text{z-index:1}
+.account-overview-hero>[data-node-id="1562:1924"]{left:var(--account-gutter)!important;top:auto!important;bottom:30px;width:calc(100% - 2 * var(--account-gutter))!important;height:auto!important;font-size:36px!important;font-weight:400!important;line-height:1.3!important}
+.account-overview-hero>[data-node-id="1562:1925"]{left:auto!important;right:var(--account-gutter);top:auto!important;bottom:36px;width:auto!important;max-width:42%;height:auto!important;font-size:12px!important;line-height:20px!important}
+.account-overview-main{width:min(1728px,calc(100% - 2 * var(--account-gutter)));margin:0 auto;padding:38px 0 43px}
+.account-overview [data-node-id="1564:1910"]{position:relative!important;inset:auto!important;display:grid!important;align-items:stretch!important;grid-template-columns:repeat(4,minmax(0,1fr));gap:19px!important;width:100%!important;height:auto!important;padding:0!important}
+.account-overview [data-node-id="1564:1910"]>.node{display:contents!important}
+.account-overview .account-overview-card{position:relative!important;inset:auto!important;width:auto!important;height:auto!important;min-height:240px;display:flex!important;flex-direction:column;align-items:flex-start!important;padding:29px!important;gap:0!important;background:#fff!important}
+.account-overview-card>.node{position:relative!important;inset:auto!important;width:100%!important;height:auto!important;flex-shrink:initial!important}
+.account-overview-card .account-overview-title{font-size:var(--ui-label,15.6px)!important;font-weight:400!important;line-height:24px!important;color:#69696d!important;margin:0 0 17px}
+.account-overview-card .account-overview-divider{display:none!important}
+.account-overview-card .account-overview-value{font-size:var(--ui-title,22.8px)!important;font-weight:400!important;line-height:34px!important;margin:0 0 10px;overflow-wrap:anywhere}
+.account-overview-card .account-overview-detail{font-size:var(--ui-copy,14.4px)!important;font-weight:400!important;line-height:24px!important;color:#79797e!important;white-space:normal;overflow-wrap:anywhere;margin:0 0 19px}
+/* Restore the approved black pill, sized to its label rather than the entire card. */
+.account-overview-card .account-overview-action{width:fit-content!important;max-width:100%;min-height:var(--ui-control-height,42px);display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:center!important;gap:0!important;margin-top:auto;padding:9px 24px!important;background:#111!important;box-shadow:none!important;border:0;border-radius:24px!important;cursor:pointer}
+.account-overview-card .account-overview-action>.text{position:relative!important;inset:auto!important;width:auto!important;height:auto!important;font-size:var(--ui-copy,14.4px)!important;font-weight:400!important;line-height:24px!important;color:#fff!important;text-align:center!important;text-decoration:none;white-space:normal}
+.account-overview-action::after{content:none}
+.account-overview-card .account-overview-action:hover{background:#303030!important}
+.account-overview-main>[data-node-id="1564:1945"]{position:relative!important;inset:auto!important;display:inline-block;width:auto!important;height:auto!important;font-size:12px!important;line-height:20px!important;margin-top:24px;text-decoration:underline;text-underline-offset:4px}
+.account-overview>[data-node-id="1564:1947"]{position:relative!important;inset:auto!important;width:100%!important;height:auto!important;padding:32px var(--account-gutter) 24px!important;gap:32px!important;background:#fff!important}
+.account-overview>[data-node-id="1564:1947"] .node{position:relative!important;inset:auto!important;height:auto!important}
+.account-overview [data-node-id="1564:1948"]{width:100%!important;max-width:1440px;margin:auto;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px!important}
+.account-overview [data-node-id="1564:1948"]>.node{width:auto!important;gap:12px!important;padding:0!important}
+.account-overview [data-node-id="1564:1948"] .text{width:auto!important;font-size:12px!important;line-height:20px!important;font-weight:400!important}
+.account-overview [data-node-id="1564:1961"]{width:100%!important;max-width:1440px;margin:auto;padding:20px 0 0!important;border-top:1px solid #ededed;display:flex!important;align-items:center!important;justify-content:space-between!important;gap:24px!important}
+.account-overview [data-node-id="1564:1962"]{width:88px!important;height:36px!important}
+.account-overview [data-node-id="1564:1963"]{width:auto!important;font-size:11px!important;line-height:20px!important}
+@media(max-width:1179px){.account-overview [data-node-id="1564:1910"]{grid-template-columns:repeat(2,minmax(0,1fr))}.account-overview .account-overview-card{min-height:221px}.account-overview>[data-node-id="1562:1904"]{gap:24px!important}.account-overview>[data-node-id="1562:1904"]>.text{display:none!important}.account-overview>[data-node-id="1562:1904"]{justify-content:space-between!important}}
+@media(max-width:640px){
+ .account-overview>.header{height:68px!important;gap:12px!important}.account-overview .header>.node{height:68px!important;gap:16px!important}.account-overview .header>.node:nth-child(2){flex-basis:104px}.account-overview .header .text,.account-overview .header [data-name="Header / 联系我们"],.account-overview .header [data-name="Header / 心愿单"]{display:none!important}
+ .account-overview>[data-node-id="1562:1904"]{overflow-x:auto;justify-content:flex-start!important;height:54px!important;gap:26px!important}.account-overview>[data-node-id="1562:1904"]>.node{height:54px!important}
+ .account-overview-hero>[data-node-id="1562:1924"]{font-size:28px!important;bottom:50px}.account-overview-hero>[data-node-id="1562:1925"]{left:var(--account-gutter)!important;right:auto;bottom:24px;max-width:90%}
+ .account-overview-main{padding-top:24px}.account-overview [data-node-id="1564:1910"]{grid-template-columns:1fr;gap:12px!important}.account-overview .account-overview-card{min-height:0;padding:24px!important}.account-overview-card .account-overview-title{margin-bottom:8px}.account-overview-card .account-overview-detail{margin-bottom:8px}
+ .account-overview [data-node-id="1564:1948"]{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px!important}
+}

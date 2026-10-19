@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff"><title>供应商合作 · 商品选品资料 · ULAB</title>
+<meta name="description" content="ULAB 供应商商品选品资料表。按配件分类填写商品参数、报价样品与联系资料，生成选品资料包。">
+<link rel="stylesheet" href="ui/tokens.css">
+<link rel="stylesheet" href="ui/components.css">
+<link rel="stylesheet" href="styles.css?v=20261013-shared-header">
+<link rel="stylesheet" href="../assets/css/site-menu.css?v=20260915-menu">
+<link rel="stylesheet" href="../assets/css/supplier-header.css?v=20261013-menu-consistency">
+<link rel="stylesheet" href="../assets/css/supplier-entry.css?v=20261013-menu-consistency">
+<script type="module" src="../assets/js/supplier-header.js?v=20261013-shared-header"></script>
+<script src="schema.js?v=single-form-v05" defer></script><script src="dictionary.js?v=20261013-copy" defer></script><script src="dictionary-fields.js?v=20261013-copy" defer></script><script src="dictionary-form.js?v=20261013-copy" defer></script><script src="selection-form.js?v=20261013-copy" defer></script><script src="app.js?v=single-form-v05" defer></script>
+</head>
+<body>
+<a class="skip" href="#form-panel">跳到表单</a>
+<header class="supplier-site-header site-header has-lab-entry has-supplier-entry" aria-label="ULAB 全站导航">
+ <nav class="header-leading-with-lab" aria-label="菜单与搜索">
+  <button class="site-nav-action" id="supplier-menu-trigger" type="button" aria-label="菜单" aria-haspopup="dialog" aria-controls="supplier-site-menu" aria-expanded="false"><img src="../assets/images/icon-menu.svg" alt="" width="20" height="20"><span>菜单</span></button>
+  <a class="site-nav-action" href="../?ulabAction=search#/" aria-label="搜索"><img src="../assets/images/icon-search.svg" alt="" width="20" height="20"><span>搜索</span></a>
+ </nav>
+ <a class="site-brand header-brand-with-lab" href="../#/" aria-label="ULAB 首页"><img src="../assets/images/1023_881.png" alt="ULAB" width="112" height="40"></a>
+ <nav class="header-actions-with-lab" aria-label="合作、实验室与账户">
+  <a class="header-supplier-entry" href="./" aria-current="page">供应商合作</a>
+  <a class="header-lab-entry" href="../#/lab" aria-label="进入定制实验室"><span class="header-lab-label-full">定制实验室</span><span class="header-lab-label-short">实验室</span></a>
+  <a class="site-icon site-wishlist" href="../?ulabAction=wishlist#/" aria-label="心愿单"><img src="../assets/images/icon-heart.svg" alt="" width="20" height="20"></a>
+  <a class="site-icon" href="../?ulabAction=account#/" aria-label="我的 ULAB"><img src="../assets/images/icon-user.svg" alt="" width="20" height="20"></a>
+  <a class="site-icon" href="../?ulabAction=cart#/" aria-label="购物袋"><img src="../assets/images/icon-bag.svg" alt="" width="20" height="20"></a>
+ </nav>
+</header>
+<div id="overlays"><dialog id="supplier-site-menu" class="supplier-menu-dialog" aria-label="全局菜单"></dialog></div>
+<div class="workspace">
+ <aside class="sidebar" aria-label="选品资料导航">
+  <p class="overline">PRODUCT SELECTION</p><h2>先认识你的商品。</h2>
+  <div class="parts-head"><span>我的商品资料</span><span id="part-count">01</span></div>
+  <div id="parts-list"></div><button type="button" id="add-part" class="add-part u-button u-button--quiet u-button--sm">＋ 添加另一款商品</button>
+  <div class="admission"><p class="small-title">商品初审通过后</p><p class="later-note">再补充企业资质与品牌授权，确认合作条款并安排样品。</p><ol><li><span>供应商声明兼容</span><small>可在本次资料中提供</small></li><li><span>ULABSHOP验证兼容</span><small>由平台完成样品与试装验证</small></li><li><span>已准入并上架</span><small>再进入消费者选配器</small></li></ol></div>
+  <p id="save-state" class="save-state" role="status">填写内容会保存在此浏览器</p>
+ </aside>
+ <main id="main">
+  <div class="form-toolbar" aria-label="选品资料操作"><a class="site-return" href="../#/"><span aria-hidden="true">←</span> 返回 ULAB 网站</a><div class="top-actions"><button type="button" class="text-button u-button u-button--quiet u-button--sm" id="save-draft">保存草稿</button><button type="button" class="outline-button u-button u-button--secondary u-button--sm" id="export-draft">导出草稿 <span aria-hidden="true">↗</span></button></div></div>
+  <div class="intro"><div><p class="overline">ULAB / PRODUCT SELECTION</p><h1>商品选品资料</h1><p>选好品类，填写对应参数、报价和联系方式。选填项可留空。</p></div></div>
+  <div class="preview-note u-alert"><span class="note-dot" aria-hidden="true"></span><p>草稿和图片保存在当前浏览器，生成的资料包下载至本机。当前尚未接入后台接收与审核，资料不会自动发送至平台。</p></div>
+  <section id="form-panel" tabindex="-1" aria-labelledby="panel-title"></section>
+  <footer class="form-footer"><span id="footer-hint">草稿自动保存，随时继续</span><button type="button" id="next" class="primary-button u-button">生成选品资料 <span aria-hidden="true">↗</span></button></footer>
+  <footer class="page-footer"><span>© 2026 ULAB</span><span>商品选品与供应商联系资料</span></footer>
+ </main>
+</div>
+<div id="toast" class="toast" role="status" hidden></div>
+<dialog id="complete-dialog" class="u-dialog" aria-labelledby="complete-title"><button type="button" id="close-complete" class="dialog-close u-icon-button" aria-label="关闭">×</button><div class="complete-mark" aria-hidden="true">✓</div><p class="overline">PRODUCT SELECTION</p><h2 id="complete-title">选品资料已生成</h2><p>已下载商品资料、联系方式和商品附件。请保留文件，后续用于选品初审。</p><div class="complete-note u-alert">资料尚未发送至 ULABSHOP，也未进入商品初审或兼容验证。</div><button type="button" id="back-to-review" class="primary-button u-button">返回表单</button></dialog>
+</body></html>

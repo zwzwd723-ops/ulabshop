@@ -1,0 +1,15 @@
+/* Clip artwork without creating a non-scrolling ancestor for native sticky UI. */
+.screen-shell{overflow:clip}
+.screen.account-overview>.header,.site-page>.site-header{
+ position:sticky!important;top:0!important;z-index:var(--z-header,10);
+}
+.retail-header{will-change:translate}
+.header.is-following,.site-header.is-following{
+ background:#fff!important;
+ box-shadow:0 1px 0 #e7e7e7!important;
+}
+.hero-header.is-following .text{color:#0d0d11!important}
+.hero-header.is-following img{filter:brightness(0)!important}
+@media(prefers-reduced-motion:no-preference){
+ .header,.site-header{transition:background-color .18s ease,box-shadow .18s ease}
+}

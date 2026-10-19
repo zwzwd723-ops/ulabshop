@@ -1,0 +1,64 @@
+/* Match the ULAB retail header without applying the commerce page's layout
+   rules to the selection form. Entry emphasis comes from supplier-entry.css. */
+@font-face { font-family: 'Noto Sans SC'; src: url('../fonts/NotoSansSC-VF.ttf') format('truetype'); font-weight: 100 900; font-display: swap; }
+.supplier-site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: 76px;
+  padding: 0 clamp(24px, 4vw, 64px);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 144px minmax(0, 1fr);
+  align-items: center;
+  gap: 24px;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  color: #111;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.supplier-site-header nav { display: flex; align-items: center; gap: 24px; min-width: 0; }
+.supplier-site-header .header-actions-with-lab { justify-content: flex-end; }
+.supplier-site-header :is(a, button) { color: inherit; font: inherit; text-decoration: none; white-space: nowrap; flex: none; }
+.supplier-site-header button { border: 0; padding: 0; background: transparent; }
+.supplier-site-header .site-nav-action { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; }
+.supplier-site-header .site-icon { display: inline-flex; align-items: center; justify-content: center; width: 20px; height: 40px; }
+.supplier-site-header :is(.site-nav-action, .site-icon) img { display: block; width: 20px; height: 20px; filter: brightness(0); }
+.supplier-site-header .site-contact { display: inline-flex; align-items: center; min-height: 40px; }
+.supplier-site-header .site-brand { display: flex; justify-content: center; align-items: center; width: 144px; height: 40px; }
+.supplier-site-header .site-brand img { display: block; width: 112px; height: 40px; object-fit: contain; filter: brightness(0); }
+.supplier-site-header .header-lab-label-short { display: none; }
+.supplier-site-header :is(.site-nav-action, .site-icon, .site-contact):hover { opacity: .65; }
+.supplier-site-header :is(a, button):focus-visible { outline: 2px solid #555; outline-offset: 3px; }
+.skip { z-index: 11; }
+
+/* Native dialog supplies focus containment, Escape and background inertness. */
+.supplier-menu-dialog { position: fixed; inset: 0 auto 0 0; width: min(400px, 100vw); height: 100dvh; max-width: none; max-height: none; margin: 0; padding: 0; border: 0; background: #fff; color: #161616; }
+.supplier-menu-dialog:not([open]) { display: none; }
+.supplier-menu-dialog::backdrop { background: rgb(0 0 0 / .3); }
+body:has(.supplier-menu-dialog[open]) { overflow: hidden; }
+.supplier-menu-dialog .site-menu-drawer { display: flex; flex-direction: column; overflow: hidden; font-family: 'Noto Sans SC', sans-serif; }
+.supplier-menu-dialog button { appearance: none; border: 0; background: transparent; font: inherit; cursor: pointer; }
+
+@media (min-width: 641px) and (max-width: 900px) {
+  .supplier-site-header { grid-template-columns: minmax(0, 1fr) 112px minmax(0, 1fr); gap: 12px; }
+  .supplier-site-header .site-brand { width: 112px; }
+  .supplier-site-header .header-actions-with-lab { gap: 8px; }
+}
+@media (max-width: 640px) {
+  .supplier-site-header { height: 68px; grid-template-columns: minmax(0, 1fr) 104px minmax(0, 1fr); padding-inline: 24px; gap: 12px; }
+  .supplier-site-header nav { gap: 16px; }
+  .supplier-site-header :is(.site-nav-action span, .site-contact, .site-wishlist, .header-lab-label-full) { display: none; }
+  .supplier-site-header .header-lab-label-short { display: inline; }
+  .supplier-site-header .site-brand { width: 104px; }
+  .supplier-site-header .site-brand img { width: 104px; }
+}
+@media (max-width: 600px) {
+  .supplier-menu-dialog { width: min(360px, calc(100vw - 24px)); }
+}
+@media (max-width: 374px) {
+  .supplier-site-header { grid-template-columns: minmax(0, 1fr) 72px minmax(0, 1fr); }
+  .supplier-site-header .site-brand, .supplier-site-header .site-brand img { width: 72px; }
+}

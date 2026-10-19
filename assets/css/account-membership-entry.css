@@ -1,0 +1,8 @@
+/* Shared membership entry follows the accepted account type and button scale. */
+.account-membership-nav{display:flex;border:0;background:transparent;color:inherit;font:inherit;cursor:pointer}
+.account-membership-entry{display:flex;align-items:center;justify-content:space-between;gap:24px;background:#fff;padding:22px 28px;margin-bottom:20px;border-left:3px solid #111}
+.account-membership-entry h2{font:500 var(--ui-label,15.6px)/1.5 'Noto Sans SC',sans-serif;margin:0 0 5px}
+.account-membership-entry p{font:400 var(--ui-copy,14.4px)/1.6 'Noto Sans SC',sans-serif;color:#757579;margin:0}
+.account-membership-entry .account-button{flex:none}
+.account-membership-entry button:focus-visible,.account-membership-nav:focus-visible{outline:2px solid #333;outline-offset:4px}
+@media(max-width:640px){.account-membership-entry{align-items:flex-start;flex-direction:column;gap:16px;padding:20px}}

@@ -1,0 +1,43 @@
+.lab-sku-option{display:flex;flex-direction:column;flex:none;min-width:0;border:1px solid #dedee1;border-radius:10px;overflow:hidden;background:#fff}
+.lab-sku-option:has([aria-pressed="true"]){border-color:#202024;box-shadow:inset 0 0 0 1px #202024}
+.lab-sku-option .lab-sku-card{border:0;border-radius:0;box-shadow:none!important;width:100%;min-height:205px!important;height:auto;gap:16px}
+.lab-sku-option .lab-sku-image{flex-basis:154px;height:auto;min-height:176px}
+.lab-sku-option .lab-sku-copy{min-height:176px!important;height:auto;gap:6px}
+.lab-sku-option .lab-sku-compatibility{font-size:calc(11px * var(--lab-type-scale,1));line-height:1.5;color:#717177}
+.lab-sku-option.is-incompatible{background:#fafafa}
+.lab-sku-option.is-incompatible .lab-sku-card{background:transparent}
+.lab-sku-option.is-incompatible .lab-sku-image{opacity:.5}
+.lab-sku-option.is-incompatible .lab-sku-select{color:#85858b;border-color:#d6d6da}
+.lab-sku-details{padding:0 16px 12px;font-size:calc(11px * var(--lab-type-scale,1));line-height:1.6}
+.lab-sku-details summary{cursor:pointer;color:#67676d;width:max-content;min-height:28px;display:flex;align-items:center;gap:8px}
+.lab-sku-details summary::after{content:'＋';font-size:14px}.lab-sku-details[open] summary::after{content:'−'}
+.lab-sku-details dl{margin:10px 0 0;display:grid;grid-template-columns:88px minmax(0,1fr);gap:6px 12px;border-top:1px solid #ececef;padding-top:12px}
+.lab-sku-details dt{color:#85858b}.lab-sku-details dd{margin:0;overflow-wrap:anywhere}
+.lab-compatibility-notice,.lab-fixed-spec{position:relative!important;margin:0!important;font-size:calc(11px * var(--lab-type-scale,1));line-height:1.6;color:#717177}
+.lab-compatibility-notice{padding:calc(10px * var(--lab-type-scale,1)) calc(12px * var(--lab-type-scale,1));background:var(--u-surface-soft);border-radius:var(--u-radius-sm);color:var(--u-ink);overflow-wrap:anywhere}
+.lab-compatibility-notice[hidden]{display:none!important}
+.lab-fixed-spec{background:#f5f5f6;padding:10px 12px;border-radius:6px;color:#303036}
+.lab-fulfillment{padding:14px;margin:0;display:grid;gap:14px;border:1px solid #dedee1;border-radius:8px;flex:none}
+.lab-fulfillment legend{padding:0 6px;font-size:calc(12px * var(--lab-type-scale,1))}.lab-fulfillment label{display:flex;gap:10px;align-items:flex-start;cursor:pointer}
+.lab-fulfillment input{accent-color:#151515;margin-top:5px}.lab-fulfillment strong{display:block;font-size:calc(13px * var(--lab-type-scale,1));font-weight:500}.lab-fulfillment small{display:block;color:#85858b;font-size:calc(11px * var(--lab-type-scale,1));line-height:1.6;margin-top:4px}
+.lab-travel-option{border-top:1px solid #dedee1;padding:20px 0;display:flex;align-items:flex-start;gap:14px;justify-content:space-between}.lab-travel-option h3{font-size:calc(15px * var(--lab-type-scale,1));font-weight:500;margin:7px 0}.lab-travel-option small,.lab-travel-option p{font-size:calc(11px * var(--lab-type-scale,1));line-height:1.65;color:#77777d;white-space:pre-line}.lab-travel-option strong{font-weight:400;font-size:calc(14px * var(--lab-type-scale,1))}.lab-travel-option button{flex-shrink:0;margin-top:26px}
+.lab-structure-options{display:flex!important;flex-direction:column;align-items:stretch!important;gap:12px!important}
+.lab-mount-option{box-sizing:border-box;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;align-self:stretch;flex:none;width:100%;min-width:0;min-height:calc(96px * var(--lab-type-scale,1));gap:calc(18px * var(--lab-type-scale,1));text-align:left;border:1px solid #dedee2;border-radius:10px;background:#fff;color:#17171b;padding:calc(18px * var(--lab-type-scale,1)) calc(20px * var(--lab-type-scale,1));font-family:inherit;cursor:pointer;transition:border-color .18s,background-color .18s}
+.lab-mount-option:hover{border-color:#9b9ba2;background:#fafafa}
+.lab-mount-option[aria-pressed="true"]{border-color:#28282e;background:#f6f6f7}
+.lab-mount-copy{display:grid;gap:calc(6px * var(--lab-type-scale,1));min-width:0}
+.lab-mount-option strong{font-size:calc(16px * var(--lab-type-scale,1));font-weight:500;line-height:1.5}
+.lab-mount-description{font-size:calc(12px * var(--lab-type-scale,1));line-height:1.65;color:#73737b;overflow-wrap:anywhere}
+.lab-mount-indicator{display:grid;place-items:center;box-sizing:border-box;width:calc(20px * var(--lab-type-scale,1));height:calc(20px * var(--lab-type-scale,1));border:1px solid #c9c9cf;border-radius:50%;background:#fff;color:#fff;transition:background-color .18s,border-color .18s}
+.lab-mount-indicator svg{width:80%;height:80%;opacity:0;transition:opacity .18s}
+.lab-mount-option[aria-pressed="true"] .lab-mount-indicator{background:#232328;border-color:#232328}
+.lab-mount-option[aria-pressed="true"] .lab-mount-indicator svg{opacity:1}
+.lab-mount-option:focus-visible{outline:2px solid #55555d;outline-offset:3px}
+.lab-mount-note{margin:calc(2px * var(--lab-type-scale,1)) 0 0;font-size:calc(11px * var(--lab-type-scale,1));line-height:1.6;color:#85858d}
+@media(prefers-reduced-motion:reduce){.lab-mount-option,.lab-mount-indicator,.lab-mount-indicator svg{transition:none}}
+.lab-review-validation{font-size:calc(12px * var(--lab-type-scale,1));line-height:1.6;flex:none;margin:8px 0}.lab-review-validation summary{cursor:pointer;padding:10px 0}.lab-review-validation[open]{max-height:230px;overflow:auto;border-top:1px solid #dedee1}.lab-bom-line{display:flex;justify-content:space-between;gap:16px;padding:6px 0}.lab-bom-line strong{font-weight:400;white-space:nowrap}.lab-review-validation p{color:#717177}
+.lab-travel-option{display:grid;grid-template-columns:106px minmax(0,1fr)}.lab-travel-image{width:106px;height:100px;object-fit:cover;border-radius:7px}.lab-travel-option>button{grid-column:2;justify-self:start;margin-top:0}
+
+/* Keep pending special-key requirements visible in the review step. */
+.lab-special-review{flex-shrink:0;padding:20px;border:1px solid var(--u-line);border-radius:var(--u-radius-md);color:var(--u-ink);font:13px/1.8 var(--u-font)}.lab-special-review h3{font-size:15px;font-weight:500;margin:0 0 12px}.lab-special-review p{margin:6px 0;color:var(--u-muted);overflow-wrap:anywhere}.lab-special-review .u-button{margin-top:14px}
+

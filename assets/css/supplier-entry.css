@@ -1,0 +1,103 @@
+/* Primary cooperation entry and secondary laboratory entry share a quiet,
+   monochrome shape while keeping their importance visibly different. */
+.has-supplier-entry {
+  --cooperation-bg: #171719;
+  --cooperation-ink: #fff;
+  --cooperation-hover: #353538;
+  --lab-entry-bg: #f5f5f5;
+  --lab-entry-ink: #222;
+  --lab-entry-border: #dedede;
+  --lab-entry-hover: #eaeaea;
+  --lab-entry-hover-border: #c8c8c8;
+}
+/* Inherit the transparent hero header's light palette until it becomes solid. */
+.header.hero-header.has-supplier-entry:not(:is(:hover, :focus-within, .solid, .is-following)) {
+  --cooperation-bg: #fff;
+  --cooperation-ink: #171719;
+  --lab-entry-bg: transparent;
+  --lab-entry-ink: #fff;
+  --lab-entry-border: rgb(255 255 255 / .7);
+}
+/* Keyboard navigation receives the same solid header as pointer navigation. */
+.header.hero-header.has-supplier-entry:focus-within { background: #fff !important; }
+.header.hero-header.has-supplier-entry:focus-within .text { color: #0d0d11 !important; }
+.header.hero-header.has-supplier-entry:focus-within img { filter: brightness(0) !important; }
+/* Contact remains available in the menu; it no longer occupies the top bar. */
+#app .screen > .header [data-name="Header / 联系我们"] { display: none !important; }
+.has-supplier-entry :is(.header-supplier-entry, .header-lab-entry) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  position: relative;
+  width: auto;
+  min-height: 40px;
+  padding: 0 16px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  white-space: nowrap;
+  letter-spacing: 0;
+  text-decoration: none;
+  transition: background-color .18s ease, border-color .18s ease, color .18s ease;
+}
+.has-supplier-entry .header-supplier-entry {
+  background: var(--cooperation-bg);
+  border-color: var(--cooperation-bg);
+  color: var(--cooperation-ink) !important;
+}
+.has-supplier-entry .header-lab-entry {
+  padding-inline: 12px;
+  background: var(--lab-entry-bg);
+  border-color: var(--lab-entry-border);
+  color: var(--lab-entry-ink) !important;
+  font-weight: 500;
+}
+.has-supplier-entry :is(.header-supplier-entry, .header-lab-entry):is(:hover, :focus-visible, :active) {
+  text-decoration: none;
+  filter: none;
+}
+.has-supplier-entry .header-supplier-entry:hover { background: var(--cooperation-hover); border-color: var(--cooperation-hover); }
+.has-supplier-entry .header-lab-entry:hover { background: var(--lab-entry-hover); border-color: var(--lab-entry-hover-border); }
+.has-supplier-entry :is(.header-supplier-entry, .header-lab-entry):focus-visible {
+  outline: 2px solid #555;
+  outline-offset: 3px;
+}
+/* Carry the same hierarchy into the top-bar menu on smaller screens. */
+#overlays .site-menu-supplier {
+  background: #171719;
+  color: #fff;
+  border-radius: 999px;
+  padding-inline: 18px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+#overlays .site-menu-supplier:is(:hover, :focus-visible, :active) { background: #353538; color: #fff; }
+#overlays .site-menu-supplier .site-menu-chevron { color: #fff; }
+/* Main navigation rows keep the shared menu component and its current-page state.
+   Laboratory button emphasis is scoped to .header-lab-entry above. */
+@media (min-width: 901px) and (max-width: 1100px) {
+  .has-supplier-entry .header-supplier-entry { padding-inline: 12px; }
+  .screen .header.has-supplier-entry > .header-actions-with-lab,
+  .site-header.has-supplier-entry > .header-actions-with-lab { gap: 8px !important; }
+}
+/* On narrow screens the same entry is in the top-bar menu, preserving space
+   for the laboratory entry, account, and shopping bag. */
+@media (max-width: 900px) {
+  .has-supplier-entry .header-supplier-entry { display: none; }
+}
+@media (max-width: 640px) {
+  .has-supplier-entry .header-lab-entry { padding-inline: 6px; }
+  .screen .header.has-supplier-entry > .header-actions-with-lab,
+  .site-header.has-supplier-entry > .header-actions-with-lab { gap: 8px !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .has-supplier-entry :is(.header-supplier-entry, .header-lab-entry) { transition: none; }
+}
+
+/* Preserve the original ULAB mark proportions in every shared retail header. */
+.has-supplier-entry .header-brand-with-lab img { object-fit: contain !important; }

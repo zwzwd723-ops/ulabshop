@@ -1,0 +1,67 @@
+/* Business layout around the unchanged, shared ULAB component library. */
+.site-auth.ulab-auth { display: block; width: 100%; min-width: 0; color: var(--u-ink); }
+.commerce-auth-page .site-auth.ulab-auth { max-width: 440px; margin: 40px auto 56px; }
+.site-auth.ulab-auth .ulab-auth-form { display: grid; gap: 20px; margin: 0; padding: 0; background: transparent; }
+.ulab-auth-intro { margin: 0 0 28px; }
+.ulab-auth-intro p { color: var(--u-muted); font-size: 13px; line-height: 1.8; }
+.site-auth.ulab-auth .ulab-auth-heading { margin: 0; font-size: 20px; font-weight: 500; line-height: 1.5; }
+.ulab-auth .ulab-auth-tabs { width: 100%; margin: 0; }
+.ulab-auth .u-tab { flex: 1 1 0; font-size: 13px; }
+.ulab-auth-fields { display: grid; gap: 20px; min-width: 0; }
+.ulab-auth-code-row, .ulab-auth-password-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; gap: 12px; }
+.ulab-auth-code-row > .u-button, .ulab-auth-password-row > .u-button { padding-inline: 16px; min-width: 112px; font-size: 12px; }
+.ulab-auth-password-row > .u-button { min-width: 64px; }
+.ulab-auth-password-row { align-items: center; }
+.ulab-auth .u-input { font-size: 14px; }
+.ulab-auth .u-field-error[hidden] { display: none; }
+.ulab-auth .ulab-auth-local-note { margin: 0; color: var(--u-muted); font-size: 12px; }
+.ulab-auth-submit { width: 100%; }
+.lab-account-drawer .site-drawer-header { padding: 20px 32px; }
+.lab-account-drawer .site-drawer-header h2 { margin: 0; font-size: 18px; font-weight: 500; line-height: 1.5; }
+.lab-account-drawer { background: var(--u-surface); color: var(--u-ink); font-family: var(--u-font); }
+.lab-account-drawer .site-drawer-body { gap: 24px; padding: 24px 32px; }
+.lab-account-drawer .site-drawer-footer { padding: 20px 32px; display: flex; flex-direction: column; gap: 8px; background: var(--u-surface); border-color: var(--u-line); }
+.lab-account-drawer .lab-account-back { align-self: flex-start; margin-left: -8px; padding: 6px 8px; min-height: 32px; }
+.lab-account-back > span { font-size: 16px; line-height: 1; }
+.lab-account-drawer .site-drawer-close { width: 40px; height: 40px; flex-basis: 40px; font-size: 24px; }
+.lab-account-drawer .u-button, .lab-account-drawer .u-tab { font-family: var(--u-font); font-size: 13px; line-height: 1.5; text-decoration: none; filter: none; }
+.lab-account-body > .u-button { width: 100%; }
+.lab-account-body > .lab-account-back { width: auto; }
+.lab-account-section > .lab-account-entry { display: inline-flex; }
+.lab-account-drawer .lab-account-intro { display: grid; grid-template-columns: 56px minmax(0,1fr); align-items: center; column-gap: 18px; row-gap: 4px; padding: 24px; border-radius: var(--u-radius-md); background: var(--u-surface-soft); }
+.lab-account-drawer .lab-account-avatar { grid-column: 1; grid-row: 1 / 3; width: 56px; height: 56px; background: var(--u-surface); color: var(--u-ink); }
+.lab-account-avatar > svg { width: 26px; height: 26px; }
+.lab-account-drawer .lab-account-identity h3 { margin: 4px 0 6px; font-size: 22px; font-weight: 500; line-height: 1.4; color: var(--u-ink); }
+.lab-account-drawer .lab-account-eyebrow { margin: 0; font-size: 12px; line-height: 1.6; color: var(--u-muted); }
+.lab-account-drawer .lab-account-identity .site-muted { margin: 0; font-size: 13px; line-height: 1.6; color: var(--u-muted); }
+.lab-account-drawer .lab-account-settings { grid-column: 2; justify-self: start; min-height: 36px; padding: 6px 10px; margin-left: -10px; }
+.lab-account-drawer .lab-account-section { border: 0; padding: 0; }
+.lab-account-drawer .lab-account-section h3 { margin: 0 0 16px; font-size: 15px; line-height: 1.6; font-weight: 500; }
+.lab-account-drawer .lab-account-quick-nav { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+.lab-account-drawer .lab-account-quick { position: relative; display: grid; align-content: start; justify-content: stretch; justify-items: start; gap: 18px; min-width: 0; min-height: 128px; padding: 20px; border-radius: var(--u-radius-md); border-color: var(--u-line); text-align: left; white-space: normal; }
+.lab-account-quick-label { font-size: 13px; line-height: 1.6; color: var(--u-muted); }
+.lab-account-quick-value { display: flex; align-items: baseline; gap: 8px; max-width: 100%; padding-right: 20px; }
+.lab-account-quick-value strong { font-size: 28px; line-height: 1.2; font-weight: 500; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.lab-account-quick-value small { font-size: 11px; font-weight: 400; color: var(--u-muted); white-space: nowrap; }
+.lab-account-drawer .lab-account-quick-arrow { position: absolute; right: 18px; bottom: 22px; width: 16px; height: 16px; color: var(--u-muted); }
+.lab-account-drawer .lab-account-local-note { margin: -8px 0 0; font-size: 12px; line-height: 1.7; color: var(--u-muted); }
+.lab-account-drawer .lab-account-entry { width: 100%; margin: 0; }
+.lab-account-footer-actions { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px; }
+.lab-account-footer-actions > .u-button { width: 100%; }
+.site-auth.ulab-auth :is(.u-button,.u-tab,.u-input):focus-visible,
+.lab-account-drawer .u-button:focus-visible, .lab-account-drawer .u-tab:focus-visible, .lab-account-drawer .u-input:focus-visible, .lab-account-drawer .u-icon-button:focus-visible {
+  outline: 2px solid var(--u-focus); outline-offset: 4px;
+}
+@media (max-width: 600px) {
+  .lab-account-drawer .site-drawer-header { padding: 18px 20px; }
+  .lab-account-drawer .site-drawer-body { padding: 20px; }
+  .lab-account-drawer .site-drawer-footer { padding: 16px 20px; }
+  .lab-account-drawer .lab-account-intro { padding: 20px; column-gap: 14px; }
+  .lab-account-drawer .lab-account-quick { padding: 18px 16px; }
+  .ulab-auth .ulab-auth-heading { font-size: 20px; }
+  .commerce-auth-page .site-auth.ulab-auth { margin-block: 16px 32px; }
+}
+@media (max-width: 340px) {
+  .lab-account-drawer .lab-account-quick-nav { grid-template-columns: 1fr; }
+  .lab-account-drawer .lab-account-quick { min-height: 108px; gap: 12px; }
+}

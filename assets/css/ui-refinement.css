@@ -1,0 +1,107 @@
+/* Shared retail typography. Keep campaign headlines and product imagery at their design size. */
+:root{--ui-copy:13px;--ui-label:12px;--ui-title:20px;--ui-page-title:28px;--ui-control-height:44px}
+.site-page,.site-drawer,.config-summary{font-size:var(--ui-copy);font-weight:400;line-height:1.65}
+.site-header{height:80px}
+.site-header nav{gap:24px}
+.site-header .site-link{font-size:var(--ui-label)}
+.site-body{padding-top:48px}
+.site-body h1{font-size:var(--ui-page-title);line-height:1.4;margin-bottom:28px}
+.site-body h2,.site-drawer h2{font-size:var(--ui-title);line-height:1.5;font-weight:400;margin-bottom:20px}
+.site-link,.site-muted,.site-form-message,.site-unavailable{font-size:var(--ui-copy)}
+.site-primary{min-height:var(--ui-control-height);padding:11px 24px;font-size:var(--ui-copy);font-weight:400;line-height:22px;border-radius:24px}
+.site-cart-copy>a,.site-drawer .site-cart-copy>a{font-size:16px;line-height:1.5}
+.site-cart-price{font-size:14px;line-height:1.5}
+.site-cart-actions{margin-top:14px}
+.site-grand-total{font-size:24px;margin:22px 0}
+.site-order-summary dl{font-size:13px;gap:16px}
+.site-order-summary{padding:28px}
+.site-order-summary>.site-link{margin:18px 0}
+.site-page summary{font-size:13px}
+.site-page details{padding:16px 0}
+.site-field{font-size:13px;gap:8px;margin:20px 0}
+.site-field input,.site-field textarea,.site-field select,.site-form>select{min-height:44px;padding:10px 12px;line-height:22px}
+.site-form{padding:28px}
+.site-form>.site-primary{margin-top:20px}
+.site-product-copy .site-link{font-size:15px}
+.site-product-copy{padding:20px;min-height:150px}
+.site-footer{font-size:12px}
+.overlay-stage.site-stage{width:min(520px,100vw)}
+.site-drawer-header{padding:20px 28px}
+.site-drawer-header h2{font-size:18px;margin:0}
+.site-drawer-close{font-size:26px}
+.site-drawer-body{gap:18px}
+.site-drawer .site-cart-row{padding:14px;gap:16px}
+.site-drawer .site-cart-image{width:120px}
+.site-drawer-footer .site-grand-total{font-size:22px;margin-bottom:16px}
+.site-drawer legend{font-size:16px;margin-bottom:16px}
+.site-search-result{font-size:14px;padding:18px 0}
+.site-radio{font-size:13px;padding:10px 0}
+.site-info{padding:28px}
+.site-info h2{font-size:20px;font-weight:400}
+.site-info p{font-size:13px;margin:18px 0 24px}
+
+/* Account and shopping bag use the same quiet drawer hierarchy. */
+.lab-account-body{gap:24px}
+.lab-account-intro{gap:16px;padding:8px 0}
+.lab-account-avatar{width:52px;height:52px}
+.lab-account-avatar img{width:24px;height:24px}
+.lab-account-identity h3{font-size:20px;margin:4px 0}
+.lab-account-identity .site-muted,.lab-account-description{font-size:13px}
+.lab-account-section{padding-top:20px}
+.lab-account-section h3{font-size:14px;font-weight:400;margin-bottom:18px}
+.lab-account-fields{font-size:13px;gap:16px}
+.lab-account-stats dd{font-size:22px;margin-top:6px}
+.lab-account-local-note{margin-top:20px}
+.site-auth-inline h2{font-size:18px}
+
+/* Source DOM remains editable; ordinary labels shrink without scaling logos or imagery. */
+[data-ui-type]{--source-type-ratio:1}
+[data-ui-type="label"]{--source-type-ratio:.875}
+[data-ui-type="heading"]{--source-type-ratio:.75}
+[data-ui-type="label"],[data-ui-type="heading"]{font-size:calc(var(--source-font-size) * var(--source-type-ratio))!important;font-weight:400!important}
+.account-design [data-node-id="1562:1924"]{font-size:64px!important;font-weight:400!important;line-height:1.3!important}
+.account-empty{font-size:18px}
+.account-confirm h2{font-size:20px}
+.account-confirm p,.account-confirm button{font-size:13px}
+.account-confirm button{padding:11px 20px}
+
+/* A large monitor must not magnify the lab's utility text with its 3D presentation. */
+.lab-environment{--lab-type-scale:1}
+.environment-heading h1{font-size:26px;line-height:1.4;margin-bottom:14px}
+.environment-heading p{font-size:13px;line-height:1.8;max-width:440px}
+.environment-header button{font-size:12px}
+.environment-source-panel [data-ui-type]{font-size:calc(var(--source-font-size) * var(--source-type-ratio) * var(--lab-type-scale))!important;font-weight:400!important}
+.lab-panel-heading h2{font-size:calc(20px * var(--lab-type-scale));line-height:30px}
+.lab-panel-heading p{font-size:calc(14px * var(--lab-type-scale));line-height:1.7;margin-bottom:18px}
+.lab-product h3,.lab-sku-name{font-size:calc(18px * var(--lab-type-scale));font-weight:400}
+.lab-product-price,.lab-sku-price{font-size:calc(15px * var(--lab-type-scale))}
+.lab-product-spec,.lab-sku-spec{font-size:calc(13px * var(--lab-type-scale))}
+.lab-sku-select,.lab-select{font-size:calc(13px * var(--lab-type-scale))}
+.lab-price-row{margin-bottom:24px}
+.lab-price-row strong{font-size:calc(26px * var(--lab-type-scale))}
+.lab-panel-footer{padding-top:22px;border-color:#dedee1}
+.lab-primary{height:52px;border-radius:28px;font-size:calc(14px * var(--lab-type-scale));font-weight:400}
+.lab-outline{border-radius:24px;padding:12px 22px;font-size:calc(13px * var(--lab-type-scale))}
+.lab-selected-product{padding:20px;margin-bottom:28px}
+.lab-selected-product h3{font-size:calc(20px * var(--lab-type-scale));font-weight:400}
+.lab-selected-product p{font-size:calc(14px * var(--lab-type-scale));margin-bottom:16px}
+.lab-change,.lab-note{font-size:calc(13px * var(--lab-type-scale))}
+.lab-part h3,.lab-finishes h3{font-size:calc(17px * var(--lab-type-scale));font-weight:400}
+.lab-swatch>span:last-child,.lab-finish strong{font-size:calc(14px * var(--lab-type-scale))}
+.lab-select-trigger,.is-compact .lab-select-trigger{font-size:calc(14px * var(--lab-type-scale,1))}
+.lab-select-option{font-size:13px;min-height:36px;padding:7px 10px}
+.lab-compass-header h2{font-size:20px;font-weight:400}
+.lab-message h1,.lab-summary-backdrop .config-summary-header h2,.config-summary-header h2{font-size:20px;font-weight:400}
+.lab-message>p,.lab-message footer button,.lab-message input,.lab-message textarea{font-size:13px}
+.config-summary-label{font-size:14px;font-weight:400}
+.config-summary-detail,.config-summary-price{font-size:13px}
+.config-summary-total strong{font-size:24px}
+.config-summary-continue,.lab-summary-backdrop .config-summary-continue{height:44px;font-size:13px;border-radius:24px}
+
+@media(max-width:700px){
+ .site-header{height:68px}
+ .site-drawer .site-cart-image{width:105px}
+ .site-drawer-header{padding:18px 20px}
+ .site-body h1{font-size:24px}
+ .site-body{padding-top:32px}
+}

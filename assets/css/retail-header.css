@@ -1,0 +1,45 @@
+/* Header and account tabs share the accepted account-overview dimensions. */
+.has-retail-header{--retail-gutter:clamp(24px,4vw,64px)}
+.has-retail-header>[data-retail-offset="header"]{translate:0 var(--retail-header-shift,0px)}
+.has-retail-header>[data-retail-offset="content"]{translate:0 var(--retail-content-shift,0px)}
+.retail-header,.retail-account-nav{width:var(--retail-viewport-width)!important;transform:scale(var(--retail-inverse-scale,1))!important;transform-origin:top left}
+.retail-header{height:76px!important;padding:0 var(--retail-gutter)!important;gap:24px!important;align-items:center!important;overflow:visible!important}
+.retail-header .node{position:relative!important;left:auto!important;top:auto!important}
+.retail-header>.node{width:auto!important;height:76px!important;min-width:0;padding:0!important;gap:24px!important;flex:1;align-items:center!important;overflow:visible!important}
+.retail-header>.node:nth-child(2){flex:0 0 144px;justify-content:center!important}
+.retail-header>.node:last-child{justify-content:flex-end!important}
+.retail-header [data-name^="Header /"]{width:auto!important;height:40px!important;gap:8px!important;align-items:center!important;flex-shrink:0!important;overflow:visible!important}
+.retail-header [data-name^="Icon /"]{width:20px!important;height:20px!important;flex-shrink:0!important}
+.retail-header .text,.retail-header [data-ui-type]{font-size:12px!important;font-weight:400!important;line-height:20px!important;width:auto!important;height:auto!important;white-space:nowrap}
+.retail-header [data-name="Brand / ULAB / Home"]{width:112px!important;height:40px!important;flex-shrink:0!important}
+.header-lab-entry{display:inline-flex;align-items:center;justify-content:center;flex:none;position:relative;min-height:40px;width:auto;padding:0;font-family:'Noto Sans SC',sans-serif;font-size:12px;font-weight:400;line-height:20px;white-space:nowrap;letter-spacing:0;color:#111;text-decoration:none}
+.header-lab-entry:hover{text-decoration:underline;text-underline-offset:5px}
+.header-lab-label-short{display:none}
+.header.hero-header .header-lab-entry{color:#fff}
+.header.hero-header:is(:hover,.solid,.is-following) .header-lab-entry{color:#111}
+.site-header.has-lab-entry .header-leading-with-lab,.site-header.has-lab-entry .header-actions-with-lab{min-width:0}
+.retail-account-nav{height:60px!important;padding:0 var(--retail-gutter)!important;gap:32px!important;align-items:center!important;background:#fff!important;border-bottom:1px solid #e8e8e8;z-index:9}
+.retail-account-nav>.node{position:relative!important;inset:auto!important;width:auto!important;height:60px!important;padding:0!important;flex-shrink:0!important;align-items:center!important;justify-content:center!important}
+.retail-account-nav>.text{height:auto!important;margin-right:auto;font-size:14px!important;line-height:22px!important}
+.retail-account-nav .node .text{position:relative!important;inset:auto!important;width:auto!important;height:auto!important;font-size:12px!important;font-weight:400!important;line-height:20px!important;white-space:nowrap}
+@media(max-width:1179px){.retail-account-nav{gap:24px!important;justify-content:space-between!important}.retail-account-nav>.text{display:none!important}}
+@media(max-width:640px){
+ .retail-header{height:68px!important;gap:12px!important}
+ .retail-header>.node{height:68px!important;gap:16px!important}
+ .retail-header>.node:nth-child(2){flex-basis:104px}
+ .retail-header .text,.retail-header [data-name="Header / 联系我们"],.retail-header [data-name="Header / 心愿单"]{display:none!important}
+ .retail-account-nav{height:54px!important;overflow-x:auto!important;justify-content:flex-start!important;gap:26px!important}
+ .retail-account-nav>.node{height:54px!important}
+ .screen .header.has-lab-entry>.header-actions-with-lab,.site-header.has-lab-entry>.header-actions-with-lab{gap:12px!important}
+ .header-lab-label-full{display:none}.header-lab-label-short{display:inline}
+ .site-header.has-lab-entry{gap:12px;padding-inline:24px}
+ .site-header.has-lab-entry .site-icon[aria-label="心愿单"]{display:none}
+ .site-header.has-lab-entry .site-icon{width:20px;height:40px;flex:none}
+ .site-header.has-lab-entry .site-icon img{width:20px;height:20px}
+ .site-header.has-lab-entry .site-brand img{width:104px;max-width:100%}
+}
+@media(max-width:374px){
+ .screen .header.has-lab-entry>.header-brand-with-lab{flex-basis:72px!important}
+ .screen .header.has-lab-entry [data-name="Brand / ULAB / Home"]{width:72px!important}
+ .site-header.has-lab-entry .site-brand{width:72px}
+}

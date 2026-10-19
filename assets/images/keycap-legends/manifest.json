@@ -1,0 +1,3252 @@
+{
+  "version": 1,
+  "source": {
+    "filename": "键帽线条图_20260914.pdf",
+    "sha256": "75d178571afe4fd006b74c54f3fe41d1ea3aa98a05093a88aa0aa773a6c3cab6",
+    "pages": 1,
+    "pageSizePdf": [
+      1191.0,
+      842.0
+    ],
+    "totalPageObjects": 1947,
+    "legendPathCount": 160
+  },
+  "layout": "UQ60 ANSI 60% / 61 keys",
+  "rowCounts": [
+    14,
+    14,
+    13,
+    12,
+    8
+  ],
+  "keyCount": 61,
+  "texture": {
+    "format": "PNG RGBA",
+    "rgb": [
+      255,
+      255,
+      255
+    ],
+    "background": "transparent",
+    "heightPx": 512,
+    "domain": "key top surface interior measured from CAD contours",
+    "origin": "top-left",
+    "flipYForThreeTexture": true,
+    "tintable": true,
+    "preservesOriginalGlyphOutlines": true
+  },
+  "layoutBoundsPdf": [
+    203.58,
+    335.28,
+    1013.58,
+    603.78
+  ],
+  "pitchPdf": [
+    54.0,
+    53.7
+  ],
+  "notes": [
+    "Characters and secondary symbols are original PDF vector paths, rasterized without retyping or redrawing.",
+    "Construction lines and title block were removed in memory; input PDF is unchanged.",
+    "Map by zero-based physical row/column if model key names differ.",
+    "Bottom row after Space is ALT, MENU, CTRL, FN in this artwork.",
+    "Space is intentionally blank in the source artwork.",
+    "White RGB plus alpha allows a material color to provide dark/light print without changing shape."
+  ],
+  "keys": [
+    {
+      "row": 0,
+      "column": 0,
+      "code": "Escape",
+      "label": "ESC",
+      "xUnits": 0,
+      "widthUnits": 1,
+      "file": "r0-c00-Escape.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        203.58,
+        550.08,
+        257.58,
+        603.78
+      ],
+      "surfaceBoundsPdf": [
+        213.66,
+        558.0,
+        247.5,
+        597.24
+      ],
+      "outerBoundsPdf": [
+        204.72,
+        551.22,
+        256.44,
+        602.64
+      ],
+      "glyphBoundsPdf": [
+        216.70351,
+        584.36591,
+        236.2429,
+        592.1543
+      ],
+      "glyphBoundsUV": [
+        0.08994,
+        0.12961,
+        0.66734,
+        0.32809
+      ],
+      "alphaBoundsPixels": [
+        39,
+        66,
+        295,
+        168
+      ],
+      "sourcePathIndices": [
+        1934,
+        1935,
+        1936
+      ]
+    },
+    {
+      "row": 0,
+      "column": 1,
+      "code": "Digit1",
+      "label": "1",
+      "xUnits": 1,
+      "widthUnits": 1,
+      "file": "r0-c01-Digit1.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        257.58,
+        550.08,
+        311.58,
+        603.78
+      ],
+      "surfaceBoundsPdf": [
+        267.66,
+        558.0,
+        301.5,
+        597.24
+      ],
+      "outerBoundsPdf": [
+        258.72,
+        551.22,
+        310.44,
+        602.64
+      ],
+      "glyphBoundsPdf": [
+        281.61258,
+        566.53943,
+        288.38159,
+        592.39758
+      ],
+      "glyphBoundsUV": [
+        0.41231,
+        0.12341,
+        0.61234,
+        0.78238
+      ],
+      "alphaBoundsPixels": [
+        179,
+        62,
+        273,
+        401
+      ],
+      "sourcePathIndices": [
+        1869,
+        1880
+      ]
+    },
+    {
+      "row": 0,
+      "column": 2,
+      "code": "Digit2",
+      "label": "2",
+      "xUnits": 2,
+      "widthUnits": 1,
+      "file": "r0-c02-Digit2.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        311.58,
+        550.08,
+        365.58,
+        603.78
+      ],
+      "surfaceBoundsPdf": [
+        321.66,
+        558.0,
+        355.5,
+        597.24
+      ],
+      "outerBoundsPdf": [
+        312.72,
+        551.22,
+        364.44,
+        602.64
+      ],
+      "glyphBoundsPdf": [
+        333.90051,
+        566.53943,
+        344.1235,
+        592.00366
+      ],
+      "glyphBoundsUV": [
+        0.36172,
+        0.13344,
+        0.66382,
+        0.78238
+      ],
+      "alphaBoundsPixels": [
+        159,
+        68,
+        294,
+        401
+      ],
+      "sourcePathIndices": [
+        1870,
+        1881
+      ]
+    },
+    {
+      "row": 0,
+      "column": 3,
+      "code": "Digit3",
+      "label": "3",
+      "xUnits": 3,
+      "widthUnits": 1,
+      "file": "r0-c03-Digit3.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        365.58,
+        550.08,
+        419.58,
+        603.78
+      ],
+      "surfaceBoundsPdf": [
+        375.66,
+        558.0,
+        409.5,
+        597.24
+      ],
+      "outerBoundsPdf": [
+        366.72,
+        551.22,
+        418.44,
+        602.64
+      ],
+      "glyphBoundsPdf": [
+        388.62711,
+        566.53967,
+        397.25522,
+        592.00311
+      ],
+      "glyphBoundsUV": [
+        0.38319,
+        0.13346,
+        0.63816,
+        0.78237
+      ],
+      "alphaBoundsPixels": [
+        169,
+        68,
+        282,
+        401
+      ],
+      "sourcePathIndices": [
+        1871,
+        1882
+      ]
+    },
+    {
+      "row": 0,
+      "column": 4,
+      "code": "Digit4",
+      "label": "4",
+      "xUnits": 4,
+      "widthUnits": 1,
+      "file": "r0-c04-Digit4.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        419.58,
+        550.08,
+        473.58,
+        603.78
+      ],
+      "surfaceBoundsPdf": [
+        429.66,
+        558.0,
+        463.5,
+        597.24
+      ],
+      "outerBoundsPdf": [
+        420.72,
+        551.22,
+        472.44,
+        602.64
+      ],
+      "glyphBoundsPdf": [
+        442.2569,
+        566.53973,
+        450.16589,
+        592.75128
+      ],
+      "glyphBoundsUV": [
+        0.37225,
+        0.11439,
+        0.60597,
+        0.78237
+      ],
+      "alphaBoundsPixels": [
+        161,
+        58,
+        271,
+        401
+      ],
+      "sourcePathIndices": [
+        1872,
+        1883
+      ]
+    },
+    {
+      "row": 0,
+      "column": 5,
+      "code": "Digit5",
+      "label": "5",
+      "xUnits": 5,
+      "widthUnits": 1,
+      "file": "r0-c05-Digit5.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        473.58,
+        550.08,
+        527.58,
+        603.78
+      ],
+      "surfaceBoundsPdf": [
+        483.66,
+        558.0,
+        517.5,
+        597.24
+      ],
+      "outerBoundsPdf": [
+        474.72,
+        551.22,
+        526.44,
+        602.64
+      ],
+      "glyphBoundsPdf": [
+        495.40759,
+        566.53943,
+        505.73358,
+        592.00287
+      ],
+      "glyphBoundsUV": [
+        0.34715,
+        0.13346,
+        0.65229,
+        0.78238
+      ],
+      "alphaBoundsPixels": [
+        153,
+        68,
+        289,
+        401
+      ],
+      "sourcePathIndices": [
+        1873,
+        1884
+      ]
+    },
+    {
+      "row": 0,
+      "column": 6,
+      "code": "Digit6",
+      "label": "6",
+      "xUnits": 6,
+      "widthUnits": 1,
+      "file": "r0-c06-Digit6.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        527.58,
+        550.08,
+        581.58,
+        603.78
+      ],
+      "surfaceBoundsPdf": [
+        537.66,
+        558.0,
+        571.5,
+        597.24
+      ],
+      "outerBoundsPdf": [
+        528.72,
+        551.22,
+        580.44,
+        602.64
+      ],
+      "glyphBoundsPdf": [
+        551.00726,
+        566.53912,
+        558.72632,
+        592.00366
+      ],
+      "glyphBoundsUV": [
+        0.39442,
+        0.13344,
+        0.62253,
+        0.78239
+      ],
+      "alphaBoundsPixels": [
+        171,
+        68,
+        278,
+        401
+      ],
+      "sourcePathIndices": [
+        1874,
+        1885
+      ]
+    },
+    {
+      "row": 0,
+      "column": 7,
+      "code": "Digit7",
+      "label": "7",
+      "xUnits": 7,
+      "widthUnits": 1,
+      "file": "r0-c07-Digit7.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        581.58,
+        550.08,
+        635.58,
+        603.78
+      ],
+      "surfaceBoundsPdf": [
+        591.66,
+        558.0,
+        625.5,
+        597.24
+      ],
+      "outerBoundsPdf": [
+        582.72,
+        551.22,
+        634.44,
+        602.64
+      ],
+      "glyphBoundsPdf": [
+        605.53815,
+        566.53943,
+        612.63013,
+        592.00311
+      ],
+      "glyphBoundsUV": [
+        0.41011,
+        0.13346,
+        0.61968,
+        0.78238
+      ],
+      "alphaBoundsPixels": [
+        181,
+        68,
+        275,
+        401
+      ],
+      "sourcePathIndices": [
+        1875,
+        1886
+      ]
+    },
+    {
+      "row": 0,
+      "column": 8,
+      "code": "Digit8",
+      "label": "8",
+      "xUnits": 8,
+      "widthUnits": 1,
+      "file": "r0-c08-Digit8.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        635.58,
+        550.08,
+        689.58,
+        603.78
+      ],
+      "surfaceBoundsPdf": [
+        645.66,
+        558.0,
+        679.5,
+        597.24
+      ],
+      "outerBoundsPdf": [
+        636.72,
+        551.22,
+        688.44,
+        602.64
+      ],
+      "glyphBoundsPdf": [
+        659.04248,
+        566.53931,
+        667.22748,
+        592.00385
+      ],
+      "glyphBoundsUV": [
+        0.39546,
+        0.13344,
+        0.63734,
+        0.78238
+      ],
+      "alphaBoundsPixels": [
+        172,
+        68,
+        285,
+        401
+      ],
+      "sourcePathIndices": [
+        1876,
+        1887
+      ]
+    },
+    {
+      "row": 0,
+      "column": 9,
+      "code": "Digit9",
+      "label": "9",
+      "xUnits": 9,
+      "widthUnits": 1,
+      "file": "r0-c09-Digit9.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        689.58,
+        550.08,
+        743.58,
+        603.78
+      ],
+      "surfaceBoundsPdf": [
+        699.66,
+        558.0,
+        733.5,
+        597.24
+      ],
+      "outerBoundsPdf": [
+        690.72,
+        551.22,
+        742.44,
+        602.64
+      ],
+      "glyphBoundsPdf": [
+        713.44067,
+        566.53937,
+        721.22766,
+        592.0036
+      ],
+      "glyphBoundsUV": [
+        0.40723,
+        0.13345,
+        0.63734,
+        0.78238
+      ],
+      "alphaBoundsPixels": [
+        177,
+        68,
+        285,
+        401
+      ],
+      "sourcePathIndices": [
+        1877,
+        1888
+      ]
+    },
+    {
+      "row": 0,
+      "column": 10,
+      "code": "Digit0",
+      "label": "0",
+      "xUnits": 10,
+      "widthUnits": 1,
+      "file": "r0-c10-Digit0.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        743.58,
+        550.08,
+        797.58,
+        603.78
+      ],
+      "surfaceBoundsPdf": [
+        753.66,
+        558.0,
+        787.5,
+        597.24
+      ],
+      "outerBoundsPdf": [
+        744.72,
+        551.22,
+        796.44,
+        602.64
+      ],
+      "glyphBoundsPdf": [
+        766.84119,
+        566.53943,
+        775.35419,
+        591.91626
+      ],
+      "glyphBoundsUV": [
+        0.38951,
+        0.13567,
+        0.64108,
+        0.78238
+      ],
+      "alphaBoundsPixels": [
+        172,
+        69,
+        284,
+        401
+      ],
+      "sourcePathIndices": [
+        1878,
+        1889
+      ]
+    },
+    {
+      "row": 0,
+      "column": 11,
+      "code": "Minus",
+      "label": "-",
+      "xUnits": 11,
+      "widthUnits": 1,
+      "file": "r0-c11-Minus.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        797.58,
+        550.08,
+        851.58,
+        603.78
+      ],
+      "surfaceBoundsPdf": [
+        807.66,
+        558.0,
+        841.5,
+        597.24
+      ],
+      "outerBoundsPdf": [
+        798.72,
+        551.22,
+        850.44,
+        602.64
+      ],
+      "glyphBoundsPdf": [
+        819.02197,
+        571.40796,
+        830.03699,
+        585.33099
+      ],
+      "glyphBoundsUV": [
+        0.33576,
+        0.30349,
+        0.66126,
+        0.65831
+      ],
+      "alphaBoundsPixels": [
+        146,
+        155,
+        295,
+        337
+      ],
+      "sourcePathIndices": [
+        1890,
+        1891
+      ]
+    },
+    {
+      "row": 0,
+      "column": 12,
+      "code": "Equal",
+      "label": "=",
+      "xUnits": 12,
+      "widthUnits": 1,
+      "file": "r0-c12-Equal.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        851.58,
+        550.08,
+        905.58,
+        603.78
+      ],
+      "surfaceBoundsPdf": [
+        861.66,
+        558.0,
+        895.5,
+        597.24
+      ],
+      "outerBoundsPdf": [
+        852.72,
+        551.22,
+        904.44,
+        602.64
+      ],
+      "glyphBoundsPdf": [
+        875.44733,
+        569.95801,
+        882.32031,
+        587.86517
+      ],
+      "glyphBoundsUV": [
+        0.40743,
+        0.23891,
+        0.61053,
+        0.69526
+      ],
+      "alphaBoundsPixels": [
+        180,
+        122,
+        271,
+        356
+      ],
+      "sourcePathIndices": [
+        1879,
+        1892
+      ]
+    },
+    {
+      "row": 0,
+      "column": 13,
+      "code": "Backspace",
+      "label": "BACK",
+      "xUnits": 13,
+      "widthUnits": 2,
+      "file": "r0-c13-Backspace.png",
+      "width": 1146,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        905.58,
+        550.08,
+        1013.58,
+        603.78
+      ],
+      "surfaceBoundsPdf": [
+        915.66,
+        558.0,
+        1003.5,
+        597.24
+      ],
+      "outerBoundsPdf": [
+        906.72,
+        551.22,
+        1012.44,
+        602.64
+      ],
+      "glyphBoundsPdf": [
+        919.703,
+        566.08527,
+        995.75598,
+        591.96973
+      ],
+      "glyphBoundsUV": [
+        0.04603,
+        0.13431,
+        0.91184,
+        0.79395
+      ],
+      "alphaBoundsPixels": [
+        52,
+        68,
+        1045,
+        407
+      ],
+      "sourcePathIndices": [
+        1811,
+        1812,
+        1813,
+        1814,
+        1908,
+        1909
+      ]
+    },
+    {
+      "row": 1,
+      "column": 0,
+      "code": "Tab",
+      "label": "TAB",
+      "xUnits": 0,
+      "widthUnits": 1.5,
+      "file": "r1-c00-Tab.png",
+      "width": 789,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        203.58,
+        496.38,
+        284.58,
+        550.08
+      ],
+      "surfaceBoundsPdf": [
+        213.36,
+        504.93,
+        274.86,
+        544.86
+      ],
+      "outerBoundsPdf": [
+        204.72,
+        497.52,
+        283.44,
+        548.94
+      ],
+      "glyphBoundsPdf": [
+        216.70381,
+        510.28311,
+        268.09601,
+        540.78259
+      ],
+      "glyphBoundsUV": [
+        0.05437,
+        0.10211,
+        0.89002,
+        0.86594
+      ],
+      "alphaBoundsPixels": [
+        40,
+        49,
+        705,
+        446
+      ],
+      "sourcePathIndices": [
+        1825,
+        1826,
+        1827,
+        1937,
+        1938,
+        1939,
+        1940,
+        1941,
+        1942
+      ]
+    },
+    {
+      "row": 1,
+      "column": 1,
+      "code": "KeyQ",
+      "label": "Q",
+      "xUnits": 1.5,
+      "widthUnits": 1,
+      "file": "r1-c01-KeyQ.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        284.58,
+        496.38,
+        338.58,
+        550.08
+      ],
+      "surfaceBoundsPdf": [
+        294.36,
+        504.93,
+        328.86,
+        544.86
+      ],
+      "outerBoundsPdf": [
+        285.72,
+        497.52,
+        337.44,
+        548.94
+      ],
+      "glyphBoundsPdf": [
+        304.84232,
+        527.591,
+        316.82629,
+        540.85199
+      ],
+      "glyphBoundsUV": [
+        0.30384,
+        0.10038,
+        0.6512,
+        0.43248
+      ],
+      "alphaBoundsPixels": [
+        133,
+        48,
+        288,
+        224
+      ],
+      "sourcePathIndices": [
+        1787
+      ]
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "code": "KeyW",
+      "label": "W",
+      "xUnits": 2.5,
+      "widthUnits": 1,
+      "file": "r1-c02-KeyW.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        338.58,
+        496.38,
+        392.58,
+        550.08
+      ],
+      "surfaceBoundsPdf": [
+        348.36,
+        504.93,
+        382.86,
+        544.86
+      ],
+      "outerBoundsPdf": [
+        339.72,
+        497.52,
+        391.44,
+        548.94
+      ],
+      "glyphBoundsPdf": [
+        358.2373,
+        529.33472,
+        373.08731,
+        540.85272
+      ],
+      "glyphBoundsUV": [
+        0.2863,
+        0.10036,
+        0.71673,
+        0.38881
+      ],
+      "alphaBoundsPixels": [
+        126,
+        48,
+        318,
+        202
+      ],
+      "sourcePathIndices": [
+        1788
+      ]
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "code": "KeyE",
+      "label": "E",
+      "xUnits": 3.5,
+      "widthUnits": 1,
+      "file": "r1-c03-KeyE.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        392.58,
+        496.38,
+        446.58,
+        550.08
+      ],
+      "surfaceBoundsPdf": [
+        402.36,
+        504.93,
+        436.86,
+        544.86
+      ],
+      "outerBoundsPdf": [
+        393.72,
+        497.52,
+        445.44,
+        548.94
+      ],
+      "glyphBoundsPdf": [
+        415.4855,
+        529.33472,
+        423.3425,
+        540.85272
+      ],
+      "glyphBoundsUV": [
+        0.38045,
+        0.10036,
+        0.60819,
+        0.38881
+      ],
+      "alphaBoundsPixels": [
+        167,
+        48,
+        269,
+        202
+      ],
+      "sourcePathIndices": [
+        1789
+      ]
+    },
+    {
+      "row": 1,
+      "column": 4,
+      "code": "KeyR",
+      "label": "R",
+      "xUnits": 4.5,
+      "widthUnits": 1,
+      "file": "r1-c04-KeyR.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        446.58,
+        496.38,
+        500.58,
+        550.08
+      ],
+      "surfaceBoundsPdf": [
+        456.36,
+        504.93,
+        490.86,
+        544.86
+      ],
+      "outerBoundsPdf": [
+        447.72,
+        497.52,
+        499.44,
+        548.94
+      ],
+      "glyphBoundsPdf": [
+        469.19232,
+        529.33514,
+        477.70532,
+        540.85211
+      ],
+      "glyphBoundsUV": [
+        0.37195,
+        0.10037,
+        0.6187,
+        0.3888
+      ],
+      "alphaBoundsPixels": [
+        164,
+        48,
+        274,
+        202
+      ],
+      "sourcePathIndices": [
+        1790
+      ]
+    },
+    {
+      "row": 1,
+      "column": 5,
+      "code": "KeyT",
+      "label": "T",
+      "xUnits": 5.5,
+      "widthUnits": 1,
+      "file": "r1-c05-KeyT.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        500.58,
+        496.38,
+        554.58,
+        550.08
+      ],
+      "surfaceBoundsPdf": [
+        510.36,
+        504.93,
+        544.86,
+        544.86
+      ],
+      "outerBoundsPdf": [
+        501.72,
+        497.52,
+        553.44,
+        548.94
+      ],
+      "glyphBoundsPdf": [
+        521.90271,
+        529.3172,
+        531.88373,
+        540.83521
+      ],
+      "glyphBoundsUV": [
+        0.33457,
+        0.1008,
+        0.62388,
+        0.38925
+      ],
+      "alphaBoundsPixels": [
+        145,
+        48,
+        279,
+        202
+      ],
+      "sourcePathIndices": [
+        1791
+      ]
+    },
+    {
+      "row": 1,
+      "column": 6,
+      "code": "KeyY",
+      "label": "Y",
+      "xUnits": 6.5,
+      "widthUnits": 1,
+      "file": "r1-c06-KeyY.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        554.58,
+        496.38,
+        608.58,
+        550.08
+      ],
+      "surfaceBoundsPdf": [
+        564.36,
+        504.93,
+        598.86,
+        544.86
+      ],
+      "outerBoundsPdf": [
+        555.72,
+        497.52,
+        607.44,
+        548.94
+      ],
+      "glyphBoundsPdf": [
+        576.04736,
+        529.33472,
+        586.23535,
+        540.85272
+      ],
+      "glyphBoundsUV": [
+        0.33876,
+        0.10036,
+        0.63407,
+        0.38881
+      ],
+      "alphaBoundsPixels": [
+        149,
+        48,
+        281,
+        202
+      ],
+      "sourcePathIndices": [
+        1792
+      ]
+    },
+    {
+      "row": 1,
+      "column": 7,
+      "code": "KeyU",
+      "label": "U",
+      "xUnits": 7.5,
+      "widthUnits": 1,
+      "file": "r1-c07-KeyU.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        608.58,
+        496.38,
+        662.58,
+        550.08
+      ],
+      "surfaceBoundsPdf": [
+        618.36,
+        504.93,
+        652.86,
+        544.86
+      ],
+      "outerBoundsPdf": [
+        609.72,
+        497.52,
+        661.44,
+        548.94
+      ],
+      "glyphBoundsPdf": [
+        630.68622,
+        529.02356,
+        640.0802,
+        540.8526
+      ],
+      "glyphBoundsUV": [
+        0.35728,
+        0.10036,
+        0.62957,
+        0.39661
+      ],
+      "alphaBoundsPixels": [
+        158,
+        48,
+        279,
+        206
+      ],
+      "sourcePathIndices": [
+        1793
+      ]
+    },
+    {
+      "row": 1,
+      "column": 8,
+      "code": "KeyI",
+      "label": "I",
+      "xUnits": 8.5,
+      "widthUnits": 1,
+      "file": "r1-c08-KeyI.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        662.58,
+        496.38,
+        716.58,
+        550.08
+      ],
+      "surfaceBoundsPdf": [
+        672.36,
+        504.93,
+        706.86,
+        544.86
+      ],
+      "outerBoundsPdf": [
+        663.72,
+        497.52,
+        715.44,
+        548.94
+      ],
+      "glyphBoundsPdf": [
+        688.341,
+        529.33398,
+        690.51703,
+        540.85199
+      ],
+      "glyphBoundsUV": [
+        0.46322,
+        0.10038,
+        0.52629,
+        0.38883
+      ],
+      "alphaBoundsPixels": [
+        204,
+        48,
+        232,
+        201
+      ],
+      "sourcePathIndices": [
+        1794
+      ]
+    },
+    {
+      "row": 1,
+      "column": 9,
+      "code": "KeyO",
+      "label": "O",
+      "xUnits": 9.5,
+      "widthUnits": 1,
+      "file": "r1-c09-KeyO.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        716.58,
+        496.38,
+        770.58,
+        550.08
+      ],
+      "surfaceBoundsPdf": [
+        726.36,
+        504.93,
+        760.86,
+        544.86
+      ],
+      "outerBoundsPdf": [
+        717.72,
+        497.52,
+        769.44,
+        548.94
+      ],
+      "glyphBoundsPdf": [
+        737.95178,
+        528.82349,
+        749.93579,
+        540.96246
+      ],
+      "glyphBoundsUV": [
+        0.33599,
+        0.09761,
+        0.68336,
+        0.40162
+      ],
+      "alphaBoundsPixels": [
+        148,
+        47,
+        303,
+        208
+      ],
+      "sourcePathIndices": [
+        1795
+      ]
+    },
+    {
+      "row": 1,
+      "column": 10,
+      "code": "KeyP",
+      "label": "P",
+      "xUnits": 10.5,
+      "widthUnits": 1,
+      "file": "r1-c10-KeyP.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        770.58,
+        496.38,
+        824.58,
+        550.08
+      ],
+      "surfaceBoundsPdf": [
+        780.36,
+        504.93,
+        814.86,
+        544.86
+      ],
+      "outerBoundsPdf": [
+        771.72,
+        497.52,
+        823.44,
+        548.94
+      ],
+      "glyphBoundsPdf": [
+        794.93341,
+        529.33459,
+        802.61737,
+        540.8526
+      ],
+      "glyphBoundsUV": [
+        0.42242,
+        0.10036,
+        0.64514,
+        0.38882
+      ],
+      "alphaBoundsPixels": [
+        184,
+        48,
+        288,
+        202
+      ],
+      "sourcePathIndices": [
+        1796
+      ]
+    },
+    {
+      "row": 1,
+      "column": 11,
+      "code": "BracketLeft",
+      "label": "[",
+      "xUnits": 11.5,
+      "widthUnits": 1,
+      "file": "r1-c11-BracketLeft.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        824.58,
+        496.38,
+        878.58,
+        550.08
+      ],
+      "surfaceBoundsPdf": [
+        834.36,
+        504.93,
+        868.86,
+        544.86
+      ],
+      "outerBoundsPdf": [
+        825.72,
+        497.52,
+        877.44,
+        548.94
+      ],
+      "glyphBoundsPdf": [
+        850.11481,
+        513.59137,
+        853.98279,
+        540.67145
+      ],
+      "glyphBoundsUV": [
+        0.45666,
+        0.1049,
+        0.56878,
+        0.78309
+      ],
+      "alphaBoundsPixels": [
+        201,
+        51,
+        252,
+        404
+      ],
+      "sourcePathIndices": [
+        1865,
+        1867
+      ]
+    },
+    {
+      "row": 1,
+      "column": 12,
+      "code": "BracketRight",
+      "label": "]",
+      "xUnits": 12.5,
+      "widthUnits": 1,
+      "file": "r1-c12-BracketRight.png",
+      "width": 442,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        878.58,
+        496.38,
+        932.58,
+        550.08
+      ],
+      "surfaceBoundsPdf": [
+        888.36,
+        504.93,
+        922.86,
+        544.86
+      ],
+      "outerBoundsPdf": [
+        879.72,
+        497.52,
+        931.44,
+        548.94
+      ],
+      "glyphBoundsPdf": [
+        904.46753,
+        513.61157,
+        908.33551,
+        540.67151
+      ],
+      "glyphBoundsUV": [
+        0.46688,
+        0.1049,
+        0.579,
+        0.78258
+      ],
+      "alphaBoundsPixels": [
+        206,
+        51,
+        257,
+        403
+      ],
+      "sourcePathIndices": [
+        1866,
+        1868
+      ]
+    },
+    {
+      "row": 1,
+      "column": 13,
+      "code": "Backslash",
+      "label": "\\",
+      "xUnits": 13.5,
+      "widthUnits": 1.5,
+      "file": "r1-c13-Backslash.png",
+      "width": 789,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        932.58,
+        496.38,
+        1013.58,
+        550.08
+      ],
+      "surfaceBoundsPdf": [
+        942.36,
+        504.93,
+        1003.86,
+        544.86
+      ],
+      "outerBoundsPdf": [
+        933.72,
+        497.52,
+        1012.44,
+        548.94
+      ],
+      "glyphBoundsPdf": [
+        955.46997,
+        513.66498,
+        962.13763,
+        538.995
+      ],
+      "glyphBoundsUV": [
+        0.21317,
+        0.14688,
+        0.32159,
+        0.78124
+      ],
+      "alphaBoundsPixels": [
+        166,
+        72,
+        256,
+        403
+      ],
+      "sourcePathIndices": [
+        1893,
+        1894
+      ]
+    },
+    {
+      "row": 2,
+      "column": 0,
+      "code": "CapsLock",
+      "label": "CAPS",
+      "xUnits": 0,
+      "widthUnits": 1.75,
+      "file": "r2-c00-CapsLock.png",
+      "width": 935,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        203.58,
+        442.68,
+        298.08,
+        496.38
+      ],
+      "surfaceBoundsPdf": [
+        213.06,
+        450.67,
+        288.66,
+        492.07
+      ],
+      "outerBoundsPdf": [
+        204.72,
+        443.82,
+        296.94,
+        495.24
+      ],
+      "glyphBoundsPdf": [
+        216.7036,
+        459.66901,
+        280.7999,
+        487.26022
+      ],
+      "glyphBoundsUV": [
+        0.0482,
+        0.11618,
+        0.89603,
+        0.78263
+      ],
+      "alphaBoundsPixels": [
+        45,
+        59,
+        838,
+        401
+      ],
+      "sourcePathIndices": [
+        1851,
+        1852,
+        1853,
+        1854,
+        1902,
+        1903
+      ]
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "code": "KeyA",
+      "label": "A",
+      "xUnits": 1.75,
+      "widthUnits": 1,
+      "file": "r2-c01-KeyA.png",
+      "width": 434,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        298.08,
+        442.68,
+        352.08,
+        496.38
+      ],
+      "surfaceBoundsPdf": [
+        307.56,
+        450.67,
+        342.66,
+        492.07
+      ],
+      "outerBoundsPdf": [
+        299.22,
+        443.82,
+        350.94,
+        495.24
+      ],
+      "glyphBoundsPdf": [
+        319.84149,
+        475.90582,
+        330.82349,
+        487.42282
+      ],
+      "glyphBoundsUV": [
+        0.3499,
+        0.11225,
+        0.66278,
+        0.39044
+      ],
+      "alphaBoundsPixels": [
+        151,
+        57,
+        288,
+        200
+      ],
+      "sourcePathIndices": [
+        1797
+      ]
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "code": "KeyS",
+      "label": "S",
+      "xUnits": 2.75,
+      "widthUnits": 1,
+      "file": "r2-c02-KeyS.png",
+      "width": 434,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        352.08,
+        442.68,
+        406.08,
+        496.38
+      ],
+      "surfaceBoundsPdf": [
+        361.56,
+        450.67,
+        396.66,
+        492.07
+      ],
+      "outerBoundsPdf": [
+        353.22,
+        443.82,
+        404.94,
+        495.24
+      ],
+      "glyphBoundsPdf": [
+        375.1355,
+        475.59451,
+        383.7525,
+        487.7345
+      ],
+      "glyphBoundsUV": [
+        0.38677,
+        0.10472,
+        0.63227,
+        0.39796
+      ],
+      "alphaBoundsPixels": [
+        167,
+        53,
+        275,
+        204
+      ],
+      "sourcePathIndices": [
+        1798
+      ]
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "code": "KeyD",
+      "label": "D",
+      "xUnits": 3.75,
+      "widthUnits": 1,
+      "file": "r2-c03-KeyD.png",
+      "width": 434,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        406.08,
+        442.68,
+        460.08,
+        496.38
+      ],
+      "surfaceBoundsPdf": [
+        415.56,
+        450.67,
+        450.66,
+        492.07
+      ],
+      "outerBoundsPdf": [
+        407.22,
+        443.82,
+        458.94,
+        495.24
+      ],
+      "glyphBoundsPdf": [
+        429.21692,
+        475.90582,
+        439.62891,
+        487.42383
+      ],
+      "glyphBoundsUV": [
+        0.38909,
+        0.11223,
+        0.68572,
+        0.39044
+      ],
+      "alphaBoundsPixels": [
+        168,
+        57,
+        298,
+        200
+      ],
+      "sourcePathIndices": [
+        1799
+      ]
+    },
+    {
+      "row": 2,
+      "column": 4,
+      "code": "KeyF",
+      "label": "F",
+      "xUnits": 4.75,
+      "widthUnits": 1,
+      "file": "r2-c04-KeyF.png",
+      "width": 434,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        460.08,
+        442.68,
+        514.08,
+        496.38
+      ],
+      "surfaceBoundsPdf": [
+        469.56,
+        450.67,
+        504.66,
+        492.07
+      ],
+      "outerBoundsPdf": [
+        461.22,
+        443.82,
+        512.94,
+        495.24
+      ],
+      "glyphBoundsPdf": [
+        483.48029,
+        475.9057,
+        490.92227,
+        487.42371
+      ],
+      "glyphBoundsUV": [
+        0.39659,
+        0.11223,
+        0.60861,
+        0.39044
+      ],
+      "alphaBoundsPixels": [
+        169,
+        57,
+        267,
+        200
+      ],
+      "sourcePathIndices": [
+        1800
+      ]
+    },
+    {
+      "row": 2,
+      "column": 5,
+      "code": "KeyG",
+      "label": "G",
+      "xUnits": 5.75,
+      "widthUnits": 1,
+      "file": "r2-c05-KeyG.png",
+      "width": 434,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        514.08,
+        442.68,
+        568.08,
+        496.38
+      ],
+      "surfaceBoundsPdf": [
+        523.56,
+        450.67,
+        558.66,
+        492.07
+      ],
+      "outerBoundsPdf": [
+        515.22,
+        443.82,
+        566.94,
+        495.24
+      ],
+      "glyphBoundsPdf": [
+        535.99738,
+        475.6297,
+        546.6344,
+        487.69968
+      ],
+      "glyphBoundsUV": [
+        0.35434,
+        0.10556,
+        0.65739,
+        0.39711
+      ],
+      "alphaBoundsPixels": [
+        154,
+        54,
+        286,
+        204
+      ],
+      "sourcePathIndices": [
+        1801
+      ]
+    },
+    {
+      "row": 2,
+      "column": 6,
+      "code": "KeyH",
+      "label": "H",
+      "xUnits": 6.75,
+      "widthUnits": 1,
+      "file": "r2-c06-KeyH.png",
+      "width": 434,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        568.08,
+        442.68,
+        622.08,
+        496.38
+      ],
+      "surfaceBoundsPdf": [
+        577.56,
+        450.67,
+        612.66,
+        492.07
+      ],
+      "outerBoundsPdf": [
+        569.22,
+        443.82,
+        620.94,
+        495.24
+      ],
+      "glyphBoundsPdf": [
+        589.46631,
+        475.9057,
+        599.53333,
+        487.42371
+      ],
+      "glyphBoundsUV": [
+        0.33921,
+        0.11223,
+        0.62602,
+        0.39044
+      ],
+      "alphaBoundsPixels": [
+        147,
+        57,
+        272,
+        200
+      ],
+      "sourcePathIndices": [
+        1802
+      ]
+    },
+    {
+      "row": 2,
+      "column": 7,
+      "code": "KeyJ",
+      "label": "J",
+      "xUnits": 7.75,
+      "widthUnits": 1,
+      "file": "r2-c07-KeyJ.png",
+      "width": 434,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        622.08,
+        442.68,
+        676.08,
+        496.38
+      ],
+      "surfaceBoundsPdf": [
+        631.56,
+        450.67,
+        666.66,
+        492.07
+      ],
+      "outerBoundsPdf": [
+        623.22,
+        443.82,
+        674.94,
+        495.24
+      ],
+      "glyphBoundsPdf": [
+        644.36768,
+        475.74991,
+        651.84467,
+        487.57889
+      ],
+      "glyphBoundsUV": [
+        0.36489,
+        0.10848,
+        0.57791,
+        0.39421
+      ],
+      "alphaBoundsPixels": [
+        158,
+        55,
+        251,
+        202
+      ],
+      "sourcePathIndices": [
+        1803
+      ]
+    },
+    {
+      "row": 2,
+      "column": 8,
+      "code": "KeyK",
+      "label": "K",
+      "xUnits": 8.75,
+      "widthUnits": 1,
+      "file": "r2-c08-KeyK.png",
+      "width": 434,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        676.08,
+        442.68,
+        730.08,
+        496.38
+      ],
+      "surfaceBoundsPdf": [
+        685.56,
+        450.67,
+        720.66,
+        492.07
+      ],
+      "outerBoundsPdf": [
+        677.22,
+        443.82,
+        728.94,
+        495.24
+      ],
+      "glyphBoundsPdf": [
+        698.90802,
+        475.9057,
+        708.28503,
+        487.42371
+      ],
+      "glyphBoundsUV": [
+        0.38029,
+        0.11223,
+        0.64744,
+        0.39044
+      ],
+      "alphaBoundsPixels": [
+        164,
+        57,
+        281,
+        200
+      ],
+      "sourcePathIndices": [
+        1804
+      ]
+    },
+    {
+      "row": 2,
+      "column": 9,
+      "code": "KeyL",
+      "label": "L",
+      "xUnits": 9.75,
+      "widthUnits": 1,
+      "file": "r2-c09-KeyL.png",
+      "width": 434,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        730.08,
+        442.68,
+        784.08,
+        496.38
+      ],
+      "surfaceBoundsPdf": [
+        739.56,
+        450.67,
+        774.66,
+        492.07
+      ],
+      "outerBoundsPdf": [
+        731.22,
+        443.82,
+        782.94,
+        495.24
+      ],
+      "glyphBoundsPdf": [
+        753.94312,
+        475.9057,
+        761.80011,
+        487.42371
+      ],
+      "glyphBoundsUV": [
+        0.40978,
+        0.11223,
+        0.63362,
+        0.39044
+      ],
+      "alphaBoundsPixels": [
+        177,
+        57,
+        275,
+        200
+      ],
+      "sourcePathIndices": [
+        1805
+      ]
+    },
+    {
+      "row": 2,
+      "column": 10,
+      "code": "Semicolon",
+      "label": ";",
+      "xUnits": 10.75,
+      "widthUnits": 1,
+      "file": "r2-c10-Semicolon.png",
+      "width": 434,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        784.08,
+        442.68,
+        838.08,
+        496.38
+      ],
+      "surfaceBoundsPdf": [
+        793.56,
+        450.67,
+        828.66,
+        492.07
+      ],
+      "outerBoundsPdf": [
+        785.22,
+        443.82,
+        836.94,
+        495.24
+      ],
+      "glyphBoundsPdf": [
+        809.65198,
+        459.504,
+        812.328,
+        487.49701
+      ],
+      "glyphBoundsUV": [
+        0.45846,
+        0.11046,
+        0.5347,
+        0.78662
+      ],
+      "alphaBoundsPixels": [
+        196,
+        56,
+        235,
+        403
+      ],
+      "sourcePathIndices": [
+        1855,
+        1857
+      ]
+    },
+    {
+      "row": 2,
+      "column": 11,
+      "code": "Quote",
+      "label": "'",
+      "xUnits": 11.75,
+      "widthUnits": 1,
+      "file": "r2-c11-Quote.png",
+      "width": 434,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        838.08,
+        442.68,
+        892.08,
+        496.38
+      ],
+      "surfaceBoundsPdf": [
+        847.56,
+        450.67,
+        882.66,
+        492.07
+      ],
+      "outerBoundsPdf": [
+        839.22,
+        443.82,
+        890.94,
+        495.24
+      ],
+      "glyphBoundsPdf": [
+        863.18762,
+        459.50369,
+        870.47461,
+        485.72739
+      ],
+      "glyphBoundsUV": [
+        0.44523,
+        0.1532,
+        0.65284,
+        0.78663
+      ],
+      "alphaBoundsPixels": [
+        193,
+        78,
+        284,
+        403
+      ],
+      "sourcePathIndices": [
+        1856,
+        1858
+      ]
+    },
+    {
+      "row": 2,
+      "column": 12,
+      "code": "Enter",
+      "label": "ENTER",
+      "xUnits": 12.75,
+      "widthUnits": 2.25,
+      "file": "r2-c12-Enter.png",
+      "width": 1269,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        892.08,
+        442.68,
+        1013.58,
+        496.38
+      ],
+      "surfaceBoundsPdf": [
+        901.56,
+        450.67,
+        1004.16,
+        492.07
+      ],
+      "outerBoundsPdf": [
+        893.22,
+        443.82,
+        1012.44,
+        495.24
+      ],
+      "glyphBoundsPdf": [
+        906.40112,
+        459.10721,
+        996.13092,
+        487.40042
+      ],
+      "glyphBoundsUV": [
+        0.04718,
+        0.11279,
+        0.92174,
+        0.7962
+      ],
+      "alphaBoundsPixels": [
+        60,
+        57,
+        1170,
+        408
+      ],
+      "sourcePathIndices": [
+        1806,
+        1807,
+        1808,
+        1809,
+        1810,
+        1906,
+        1907
+      ]
+    },
+    {
+      "row": 3,
+      "column": 0,
+      "code": "ShiftLeft",
+      "label": "SHIFT",
+      "xUnits": 0,
+      "widthUnits": 2.25,
+      "file": "r3-c00-ShiftLeft.png",
+      "width": 1269,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        203.58,
+        388.98,
+        325.08,
+        442.68
+      ],
+      "surfaceBoundsPdf": [
+        213.42,
+        397.15,
+        315.3,
+        438.25
+      ],
+      "outerBoundsPdf": [
+        204.72,
+        390.12,
+        323.94,
+        441.54
+      ],
+      "glyphBoundsPdf": [
+        216.70351,
+        404.53119,
+        307.26761,
+        433.4548
+      ],
+      "glyphBoundsUV": [
+        0.03223,
+        0.11667,
+        0.92116,
+        0.82041
+      ],
+      "alphaBoundsPixels": [
+        40,
+        59,
+        1169,
+        421
+      ],
+      "sourcePathIndices": [
+        1820,
+        1821,
+        1822,
+        1823,
+        1824,
+        1904
+      ]
+    },
+    {
+      "row": 3,
+      "column": 1,
+      "code": "KeyZ",
+      "label": "Z",
+      "xUnits": 2.25,
+      "widthUnits": 1,
+      "file": "r3-c01-KeyZ.png",
+      "width": 428,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        325.08,
+        388.98,
+        379.08,
+        442.68
+      ],
+      "surfaceBoundsPdf": [
+        334.92,
+        397.15,
+        369.3,
+        438.25
+      ],
+      "outerBoundsPdf": [
+        326.22,
+        390.12,
+        377.94,
+        441.54
+      ],
+      "glyphBoundsPdf": [
+        346.91019,
+        421.40051,
+        356.4422,
+        432.91852
+      ],
+      "glyphBoundsUV": [
+        0.34875,
+        0.12972,
+        0.62601,
+        0.40996
+      ],
+      "alphaBoundsPixels": [
+        146,
+        66,
+        271,
+        211
+      ],
+      "sourcePathIndices": [
+        1895
+      ]
+    },
+    {
+      "row": 3,
+      "column": 2,
+      "code": "KeyX",
+      "label": "X",
+      "xUnits": 3.25,
+      "widthUnits": 1,
+      "file": "r3-c02-KeyX.png",
+      "width": 428,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        379.08,
+        388.98,
+        433.08,
+        442.68
+      ],
+      "surfaceBoundsPdf": [
+        388.92,
+        397.15,
+        423.3,
+        438.25
+      ],
+      "outerBoundsPdf": [
+        380.22,
+        390.12,
+        431.94,
+        441.54
+      ],
+      "glyphBoundsPdf": [
+        400.70432,
+        421.7291,
+        410.97931,
+        433.2471
+      ],
+      "glyphBoundsUV": [
+        0.34277,
+        0.12173,
+        0.64163,
+        0.40197
+      ],
+      "alphaBoundsPixels": [
+        146,
+        62,
+        275,
+        206
+      ],
+      "sourcePathIndices": [
+        1896
+      ]
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "code": "KeyC",
+      "label": "C",
+      "xUnits": 4.25,
+      "widthUnits": 1,
+      "file": "r3-c03-KeyC.png",
+      "width": 428,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        433.08,
+        388.98,
+        487.08,
+        442.68
+      ],
+      "surfaceBoundsPdf": [
+        442.92,
+        397.15,
+        477.3,
+        438.25
+      ],
+      "outerBoundsPdf": [
+        434.22,
+        390.12,
+        485.94,
+        441.54
+      ],
+      "glyphBoundsPdf": [
+        454.69901,
+        421.0567,
+        465.28403,
+        433.12671
+      ],
+      "glyphBoundsUV": [
+        0.34261,
+        0.12465,
+        0.6505,
+        0.41833
+      ],
+      "alphaBoundsPixels": [
+        146,
+        63,
+        279,
+        215
+      ],
+      "sourcePathIndices": [
+        1897
+      ]
+    },
+    {
+      "row": 3,
+      "column": 4,
+      "code": "KeyV",
+      "label": "V",
+      "xUnits": 5.25,
+      "widthUnits": 1,
+      "file": "r3-c04-KeyV.png",
+      "width": 428,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        487.08,
+        388.98,
+        541.08,
+        442.68
+      ],
+      "surfaceBoundsPdf": [
+        496.92,
+        397.15,
+        531.3,
+        438.25
+      ],
+      "outerBoundsPdf": [
+        488.22,
+        390.12,
+        539.94,
+        441.54
+      ],
+      "glyphBoundsPdf": [
+        509.0051,
+        421.7291,
+        519.81409,
+        433.2471
+      ],
+      "glyphBoundsUV": [
+        0.35152,
+        0.12173,
+        0.66591,
+        0.40197
+      ],
+      "alphaBoundsPixels": [
+        148,
+        62,
+        288,
+        206
+      ],
+      "sourcePathIndices": [
+        1898
+      ]
+    },
+    {
+      "row": 3,
+      "column": 5,
+      "code": "KeyB",
+      "label": "B",
+      "xUnits": 6.25,
+      "widthUnits": 1,
+      "file": "r3-c05-KeyB.png",
+      "width": 428,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        541.08,
+        388.98,
+        595.08,
+        442.68
+      ],
+      "surfaceBoundsPdf": [
+        550.92,
+        397.15,
+        585.3,
+        438.25
+      ],
+      "outerBoundsPdf": [
+        542.22,
+        390.12,
+        593.94,
+        441.54
+      ],
+      "glyphBoundsPdf": [
+        564.55481,
+        421.72882,
+        572.80878,
+        433.24683
+      ],
+      "glyphBoundsUV": [
+        0.39659,
+        0.12173,
+        0.63667,
+        0.40198
+      ],
+      "alphaBoundsPixels": [
+        167,
+        62,
+        275,
+        206
+      ],
+      "sourcePathIndices": [
+        1899
+      ]
+    },
+    {
+      "row": 3,
+      "column": 6,
+      "code": "KeyN",
+      "label": "N",
+      "xUnits": 7.25,
+      "widthUnits": 1,
+      "file": "r3-c06-KeyN.png",
+      "width": 428,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        595.08,
+        388.98,
+        649.08,
+        442.68
+      ],
+      "surfaceBoundsPdf": [
+        604.92,
+        397.15,
+        639.3,
+        438.25
+      ],
+      "outerBoundsPdf": [
+        596.22,
+        390.12,
+        647.94,
+        441.54
+      ],
+      "glyphBoundsPdf": [
+        617.28888,
+        421.7291,
+        627.1839,
+        433.2471
+      ],
+      "glyphBoundsUV": [
+        0.35977,
+        0.12173,
+        0.64758,
+        0.40197
+      ],
+      "alphaBoundsPixels": [
+        153,
+        62,
+        278,
+        206
+      ],
+      "sourcePathIndices": [
+        1900
+      ]
+    },
+    {
+      "row": 3,
+      "column": 7,
+      "code": "KeyM",
+      "label": "M",
+      "xUnits": 8.25,
+      "widthUnits": 1,
+      "file": "r3-c07-KeyM.png",
+      "width": 428,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        649.08,
+        388.98,
+        703.08,
+        442.68
+      ],
+      "surfaceBoundsPdf": [
+        658.92,
+        397.15,
+        693.3,
+        438.25
+      ],
+      "outerBoundsPdf": [
+        650.22,
+        390.12,
+        701.94,
+        441.54
+      ],
+      "glyphBoundsPdf": [
+        669.90521,
+        421.7291,
+        681.38818,
+        433.2471
+      ],
+      "glyphBoundsUV": [
+        0.31952,
+        0.12173,
+        0.65352,
+        0.40197
+      ],
+      "alphaBoundsPixels": [
+        134,
+        62,
+        283,
+        206
+      ],
+      "sourcePathIndices": [
+        1901
+      ]
+    },
+    {
+      "row": 3,
+      "column": 8,
+      "code": "Comma",
+      "label": ",",
+      "xUnits": 9.25,
+      "widthUnits": 1,
+      "file": "r3-c08-Comma.png",
+      "width": 428,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        703.08,
+        388.98,
+        757.08,
+        442.68
+      ],
+      "surfaceBoundsPdf": [
+        712.92,
+        397.15,
+        747.3,
+        438.25
+      ],
+      "outerBoundsPdf": [
+        704.22,
+        390.12,
+        755.94,
+        441.54
+      ],
+      "glyphBoundsPdf": [
+        725.1405,
+        405.5997,
+        732.04749,
+        433.17688
+      ],
+      "glyphBoundsUV": [
+        0.35545,
+        0.12343,
+        0.55636,
+        0.79441
+      ],
+      "alphaBoundsPixels": [
+        149,
+        63,
+        241,
+        407
+      ],
+      "sourcePathIndices": [
+        1859,
+        1862
+      ]
+    },
+    {
+      "row": 3,
+      "column": 9,
+      "code": "Period",
+      "label": ".",
+      "xUnits": 10.25,
+      "widthUnits": 1,
+      "file": "r3-c09-Period.png",
+      "width": 428,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        757.08,
+        388.98,
+        811.08,
+        442.68
+      ],
+      "surfaceBoundsPdf": [
+        766.92,
+        397.15,
+        801.3,
+        438.25
+      ],
+      "outerBoundsPdf": [
+        758.22,
+        390.12,
+        809.94,
+        441.54
+      ],
+      "glyphBoundsPdf": [
+        780.46301,
+        406.84302,
+        787.37097,
+        433.17639
+      ],
+      "glyphBoundsUV": [
+        0.39392,
+        0.12345,
+        0.59485,
+        0.76416
+      ],
+      "alphaBoundsPixels": [
+        168,
+        63,
+        255,
+        392
+      ],
+      "sourcePathIndices": [
+        1860,
+        1863
+      ]
+    },
+    {
+      "row": 3,
+      "column": 10,
+      "code": "Slash",
+      "label": "/",
+      "xUnits": 11.25,
+      "widthUnits": 1,
+      "file": "r3-c10-Slash.png",
+      "width": 428,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        811.08,
+        388.98,
+        865.08,
+        442.68
+      ],
+      "surfaceBoundsPdf": [
+        820.92,
+        397.15,
+        855.3,
+        438.25
+      ],
+      "outerBoundsPdf": [
+        812.22,
+        390.12,
+        863.94,
+        441.54
+      ],
+      "glyphBoundsPdf": [
+        833.55902,
+        405.92499,
+        840.83002,
+        433.173
+      ],
+      "glyphBoundsUV": [
+        0.36763,
+        0.12353,
+        0.57912,
+        0.7865
+      ],
+      "alphaBoundsPixels": [
+        157,
+        63,
+        248,
+        403
+      ],
+      "sourcePathIndices": [
+        1861,
+        1864
+      ]
+    },
+    {
+      "row": 3,
+      "column": 11,
+      "code": "ShiftRight",
+      "label": "SHIFT",
+      "xUnits": 12.25,
+      "widthUnits": 2.75,
+      "file": "r3-c11-ShiftRight.png",
+      "width": 1606,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        865.08,
+        388.98,
+        1013.58,
+        442.68
+      ],
+      "surfaceBoundsPdf": [
+        874.92,
+        397.15,
+        1003.8,
+        438.25
+      ],
+      "outerBoundsPdf": [
+        866.22,
+        390.12,
+        1012.44,
+        441.54
+      ],
+      "glyphBoundsPdf": [
+        879.08142,
+        404.53119,
+        996.8111,
+        432.75153
+      ],
+      "glyphBoundsUV": [
+        0.03229,
+        0.13378,
+        0.94577,
+        0.82041
+      ],
+      "alphaBoundsPixels": [
+        49,
+        68,
+        1522,
+        421
+      ],
+      "sourcePathIndices": [
+        1815,
+        1816,
+        1817,
+        1818,
+        1819,
+        1905
+      ]
+    },
+    {
+      "row": 4,
+      "column": 0,
+      "code": "ControlLeft",
+      "label": "CTRL",
+      "xUnits": 0,
+      "widthUnits": 1.25,
+      "file": "r4-c00-ControlLeft.png",
+      "width": 597,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        203.58,
+        335.28,
+        271.08,
+        388.98
+      ],
+      "surfaceBoundsPdf": [
+        213.42,
+        344.15,
+        260.94,
+        384.89
+      ],
+      "outerBoundsPdf": [
+        204.72,
+        336.42,
+        269.94,
+        387.84
+      ],
+      "glyphBoundsPdf": [
+        216.7036,
+        353.22513,
+        252.35515,
+        379.07541
+      ],
+      "glyphBoundsUV": [
+        0.0691,
+        0.14272,
+        0.81934,
+        0.77724
+      ],
+      "alphaBoundsPixels": [
+        38,
+        70,
+        489,
+        393
+      ],
+      "sourcePathIndices": [
+        1828,
+        1829,
+        1830,
+        1831,
+        1914,
+        1915
+      ]
+    },
+    {
+      "row": 4,
+      "column": 1,
+      "code": "MetaLeft",
+      "label": "WIN",
+      "xUnits": 1.25,
+      "widthUnits": 1.25,
+      "file": "r4-c01-MetaLeft.png",
+      "width": 597,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        271.08,
+        335.28,
+        338.58,
+        388.98
+      ],
+      "surfaceBoundsPdf": [
+        280.92,
+        344.15,
+        328.44,
+        384.89
+      ],
+      "outerBoundsPdf": [
+        272.22,
+        336.42,
+        337.44,
+        387.84
+      ],
+      "glyphBoundsPdf": [
+        284.0856,
+        350.785,
+        320.23462,
+        379.0762
+      ],
+      "glyphBoundsUV": [
+        0.06662,
+        0.1427,
+        0.82733,
+        0.83714
+      ],
+      "alphaBoundsPixels": [
+        37,
+        70,
+        495,
+        430
+      ],
+      "sourcePathIndices": [
+        1832,
+        1833,
+        1834,
+        1918,
+        1919,
+        1920,
+        1921
+      ]
+    },
+    {
+      "row": 4,
+      "column": 2,
+      "code": "AltLeft",
+      "label": "ALT",
+      "xUnits": 2.5,
+      "widthUnits": 1.25,
+      "file": "r4-c02-AltLeft.png",
+      "width": 597,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        338.58,
+        335.28,
+        406.08,
+        388.98
+      ],
+      "surfaceBoundsPdf": [
+        348.42,
+        344.15,
+        395.94,
+        384.89
+      ],
+      "outerBoundsPdf": [
+        339.72,
+        336.42,
+        404.94,
+        387.84
+      ],
+      "glyphBoundsPdf": [
+        351.74921,
+        350.69,
+        388.00482,
+        379.0762
+      ],
+      "glyphBoundsUV": [
+        0.07006,
+        0.1427,
+        0.83301,
+        0.83947
+      ],
+      "alphaBoundsPixels": [
+        41,
+        70,
+        494,
+        429
+      ],
+      "sourcePathIndices": [
+        1835,
+        1836,
+        1837,
+        1912,
+        1913
+      ]
+    },
+    {
+      "row": 4,
+      "column": 3,
+      "code": "Space",
+      "label": "",
+      "xUnits": 3.75,
+      "widthUnits": 6.25,
+      "file": "r4-c03-Space.png",
+      "width": 3990,
+      "height": 512,
+      "blank": true,
+      "cellBoundsPdf": [
+        406.08,
+        335.28,
+        743.58,
+        388.98
+      ],
+      "surfaceBoundsPdf": [
+        415.92,
+        344.15,
+        733.44,
+        384.89
+      ],
+      "outerBoundsPdf": [
+        407.22,
+        336.42,
+        742.44,
+        387.84
+      ],
+      "glyphBoundsPdf": null,
+      "glyphBoundsUV": null,
+      "alphaBoundsPixels": null,
+      "sourcePathIndices": []
+    },
+    {
+      "row": 4,
+      "column": 4,
+      "code": "AltRight",
+      "label": "ALT",
+      "xUnits": 10.0,
+      "widthUnits": 1.25,
+      "file": "r4-c04-AltRight.png",
+      "width": 597,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        743.58,
+        335.28,
+        811.08,
+        388.98
+      ],
+      "surfaceBoundsPdf": [
+        753.42,
+        344.15,
+        800.94,
+        384.89
+      ],
+      "outerBoundsPdf": [
+        744.72,
+        336.42,
+        809.94,
+        387.84
+      ],
+      "glyphBoundsPdf": [
+        757.33453,
+        350.78009,
+        793.13721,
+        379.0762
+      ],
+      "glyphBoundsUV": [
+        0.08238,
+        0.1427,
+        0.8358,
+        0.83726
+      ],
+      "alphaBoundsPixels": [
+        47,
+        70,
+        498,
+        428
+      ],
+      "sourcePathIndices": [
+        1846,
+        1847,
+        1848,
+        1910,
+        1911
+      ]
+    },
+    {
+      "row": 4,
+      "column": 5,
+      "code": "ContextMenu",
+      "label": "MENU",
+      "xUnits": 11.25,
+      "widthUnits": 1.25,
+      "file": "r4-c05-ContextMenu.png",
+      "width": 597,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        811.08,
+        335.28,
+        878.58,
+        388.98
+      ],
+      "surfaceBoundsPdf": [
+        820.92,
+        344.15,
+        868.44,
+        384.89
+      ],
+      "outerBoundsPdf": [
+        812.22,
+        336.42,
+        877.44,
+        387.84
+      ],
+      "glyphBoundsPdf": [
+        824.60669,
+        351.16479,
+        859.67847,
+        379.0762
+      ],
+      "glyphBoundsUV": [
+        0.07758,
+        0.1427,
+        0.81562,
+        0.82782
+      ],
+      "alphaBoundsPixels": [
+        46,
+        70,
+        486,
+        426
+      ],
+      "sourcePathIndices": [
+        1842,
+        1843,
+        1844,
+        1845,
+        1922,
+        1923,
+        1924,
+        1925,
+        1926,
+        1927,
+        1928,
+        1929,
+        1930,
+        1931,
+        1932,
+        1933
+      ]
+    },
+    {
+      "row": 4,
+      "column": 6,
+      "code": "ControlRight",
+      "label": "CTRL",
+      "xUnits": 12.5,
+      "widthUnits": 1.25,
+      "file": "r4-c06-ControlRight.png",
+      "width": 597,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        878.58,
+        335.28,
+        946.08,
+        388.98
+      ],
+      "surfaceBoundsPdf": [
+        888.42,
+        344.15,
+        935.94,
+        384.89
+      ],
+      "outerBoundsPdf": [
+        879.72,
+        336.42,
+        944.94,
+        387.84
+      ],
+      "glyphBoundsPdf": [
+        892.54572,
+        353.90503,
+        927.72644,
+        378.52261
+      ],
+      "glyphBoundsUV": [
+        0.08682,
+        0.15629,
+        0.82716,
+        0.76055
+      ],
+      "alphaBoundsPixels": [
+        49,
+        77,
+        493,
+        384
+      ],
+      "sourcePathIndices": [
+        1838,
+        1839,
+        1840,
+        1841,
+        1916,
+        1917
+      ]
+    },
+    {
+      "row": 4,
+      "column": 7,
+      "code": "Fn",
+      "label": "FN",
+      "xUnits": 13.75,
+      "widthUnits": 1.25,
+      "file": "r4-c07-Fn.png",
+      "width": 597,
+      "height": 512,
+      "blank": false,
+      "cellBoundsPdf": [
+        946.08,
+        335.28,
+        1013.58,
+        388.98
+      ],
+      "surfaceBoundsPdf": [
+        955.92,
+        344.15,
+        1003.44,
+        384.89
+      ],
+      "outerBoundsPdf": [
+        947.22,
+        336.42,
+        1012.44,
+        387.84
+      ],
+      "glyphBoundsPdf": [
+        959.81342,
+        350.86658,
+        995.29675,
+        379.47812
+      ],
+      "glyphBoundsUV": [
+        0.08193,
+        0.13284,
+        0.82864,
+        0.83514
+      ],
+      "alphaBoundsPixels": [
+        46,
+        65,
+        498,
+        431
+      ],
+      "sourcePathIndices": [
+        1849,
+        1850,
+        1943,
+        1944,
+        1945,
+        1946
+      ]
+    }
+  ]
+}

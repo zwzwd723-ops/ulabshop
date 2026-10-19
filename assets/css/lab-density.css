@@ -1,0 +1,101 @@
+/* Shared lab rhythm. Product visuals retain their approved source dimensions. */
+.lab-environment{--lab-panel-gap:calc(16px * var(--lab-type-scale));--lab-panel-inset:calc(24px * var(--lab-type-scale))}
+.environment-panel-content{height:var(--panel-height,1080px)}
+.environment-source-panel.environment-flow-panel{height:var(--panel-height,1080px)!important;display:flex!important;flex-direction:column;padding:var(--lab-panel-inset);gap:var(--lab-panel-gap)}
+.lab-flow-header{flex:none;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:calc(12px * var(--lab-type-scale));align-items:center}
+.lab-flow-header>[data-name],.lab-flow-header>.environment-stepbar{position:relative!important;inset:auto!important;width:auto!important;height:auto!important;min-width:0;overflow:visible!important}
+.lab-flow-header>[data-name="导航 / 五大类"]{grid-column:1/-1;display:flex!important;gap:calc(14px * var(--lab-type-scale))!important;align-items:center!important;justify-content:space-between!important;padding:0 0 calc(12px * var(--lab-type-scale))!important;border-bottom:1px solid #ededee}
+.lab-flow-header>[data-name="导航 / 五大类"] button{width:auto!important;flex-shrink:1!important;white-space:nowrap;font-size:calc(12px * var(--lab-type-scale))!important;line-height:1.5!important;min-height:calc(30px * var(--lab-type-scale))}
+.lab-flow-header .environment-current-step{display:none}
+.lab-flow-header .environment-compass-trigger{height:calc(32px * var(--lab-type-scale));padding:calc(4px * var(--lab-type-scale)) calc(9px * var(--lab-type-scale));font-size:calc(12px * var(--lab-type-scale))}
+.lab-flow-header .environment-compass-trigger svg{width:calc(16px * var(--lab-type-scale));height:calc(16px * var(--lab-type-scale))}
+.lab-flow-header [data-name="CUSTOM LAB / BACK LABEL"]{width:auto!important;height:auto!important;font-size:calc(12px * var(--lab-type-scale))!important;line-height:1.5!important}
+.environment-flow-panel>[data-name*="VISUAL CATALOGUE"]{position:relative!important;inset:auto!important;width:100%!important;height:auto!important;min-height:0;max-height:none!important;flex:1;display:flex;flex-direction:column;gap:calc(6px * var(--lab-type-scale))}
+.environment-flow-panel [data-name="CUSTOM LAB / CATALOGUE HEADER"],.environment-flow-panel [data-name="CUSTOM LAB / CATALOGUE META"]{position:relative!important;inset:auto!important;width:100%!important;height:auto!important;flex:none;overflow:visible!important}
+.environment-flow-panel [data-name="CUSTOM LAB / CATALOGUE TITLE"]{font-size:calc(20px * var(--lab-type-scale))!important;width:auto!important;height:auto!important;line-height:1.45!important}
+.environment-flow-panel [data-name="CUSTOM LAB / CATALOGUE META"]{font-size:calc(12px * var(--lab-type-scale))!important;line-height:1.6!important;color:#83838a!important;margin-bottom:calc(8px * var(--lab-type-scale))}
+.environment-flow-panel .lab-options-scroll{position:relative!important;inset:auto!important;width:100%!important;height:auto!important;flex:1;min-height:0;padding-right:12px;scrollbar-width:thin;scrollbar-color:#b8b8bd transparent}
+.environment-flow-panel .lab-options-scroll::-webkit-scrollbar{display:block;width:6px}
+.environment-flow-panel .lab-options-scroll::-webkit-scrollbar-thumb{background:#b8b8bd;border-radius:4px}
+.environment-flow-panel .lab-options-track{display:none}
+.environment-flow-panel [data-name="CUSTOM LAB / CATALOGUE CONTENT"]{position:relative!important;inset:auto!important;width:100%!important;height:auto!important;overflow:visible!important;gap:14px!important;padding:2px 0 10px!important}
+.environment-flow-panel [data-name="CUSTOM LAB / CATALOGUE CONTENT"]>div,.environment-flow-panel .lab-sku-card{width:100%!important;height:auto!important;align-items:stretch!important}
+.environment-flow-panel [data-name="CUSTOM LAB / CATALOGUE CONTENT"]>div:has([data-name="CUSTOM LAB / OPTION IMAGE"]),.environment-flow-panel .lab-sku-card{min-height:224px}
+.environment-flow-panel [data-name="选项 / 名称说明与价格"]{width:auto!important;flex:1!important;min-width:0;flex-shrink:1!important;height:auto!important;min-height:192px;justify-content:flex-start!important;gap:8px!important;overflow:visible!important}
+.environment-flow-panel [data-name="选项 / 名称说明与价格"]>.text{width:100%!important;height:auto!important;line-height:1.55!important}
+.environment-flow-panel [data-name="选项 / 名称说明与价格"]>[data-name^="选择商品"]{margin-top:auto;min-height:32px}
+.environment-flow-panel [data-name="CUSTOM LAB / IMAGE OPTION LABEL"]{font-size:calc(18px * var(--lab-type-scale))!important}
+.environment-flow-panel .lab-sku-copy{height:auto;min-height:192px;display:flex;flex-direction:column;gap:8px}
+.environment-flow-panel .lab-sku-copy>span{position:relative;inset:auto;white-space:normal}
+.environment-flow-panel .lab-sku-spec{white-space:pre-line!important;line-height:1.65}
+.environment-flow-panel .lab-sku-select{margin-top:auto;height:auto;min-height:32px;line-height:1.6;padding:3px 10px;width:max-content;min-width:82px}
+.lab-flow-footer{flex:none;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:calc(12px * var(--lab-type-scale));align-items:center;border-top:1px solid #dedee1;padding-top:calc(16px * var(--lab-type-scale))}
+.lab-flow-footer>[data-name]{position:relative!important;inset:auto!important;width:auto!important;height:auto!important;overflow:visible!important}
+.lab-flow-footer [data-name="CUSTOM LAB / BOTTOM PRICE"]{gap:4px!important}
+.lab-flow-footer [data-name="CUSTOM LAB / PRICE ROW"],.lab-flow-footer [data-name="CUSTOM LAB / CURRENT PRICE"],.lab-flow-footer [data-name="CUSTOM LAB / PRICE NOTE"]{width:max-content!important;height:auto!important;line-height:1.5!important}
+.lab-flow-footer [data-name="CUSTOM LAB / CURRENT PRICE"]{font-size:calc(22.8px * var(--lab-type-scale))!important}
+.lab-flow-footer [data-name="CUSTOM LAB / PRICE NOTE"]{font-size:calc(12px * var(--lab-type-scale))!important}
+.lab-flow-footer [data-name="CUSTOM LAB / OPEN CONFIG SUMMARY"]{padding:0 calc(18px * var(--lab-type-scale))!important;min-height:calc(42px * var(--lab-type-scale));border-radius:calc(24px * var(--lab-type-scale))!important}
+.lab-flow-footer [data-name="CUSTOM LAB / OPEN CONFIG SUMMARY"]>.text{width:max-content!important;height:auto!important;line-height:1.5!important;font-size:calc(14.4px * var(--lab-type-scale))!important;white-space:nowrap}
+.lab-flow-footer>[data-name*="CTA /"]{grid-column:1/-1;min-height:calc(42px * var(--lab-type-scale));padding:calc(9px * var(--lab-type-scale)) calc(18px * var(--lab-type-scale))!important;border-radius:calc(24px * var(--lab-type-scale))!important}
+.lab-flow-footer>[data-name*="CTA /"]>.text{font-size:calc(14.4px * var(--lab-type-scale))!important;line-height:1.5!important;white-space:normal!important;text-align:center!important;max-width:100%}
+/* The shell substeps use the same spacing and anchored actions. */
+.environment-shell-ui{height:var(--panel-height,1080px)!important}
+.environment-shell-ui>.lab-panel{height:100%;padding:var(--lab-panel-inset)}
+.environment-shell-ui .lab-back{height:calc(32px * var(--lab-type-scale));font-size:calc(12px * var(--lab-type-scale))}
+.environment-shell-ui .lab-categories{gap:12px;margin:calc(12px * var(--lab-type-scale)) 0 calc(16px * var(--lab-type-scale));height:auto;padding-bottom:calc(12px * var(--lab-type-scale));border-bottom:1px solid #ededee}
+.environment-shell-ui .lab-categories button{height:calc(30px * var(--lab-type-scale));font-size:calc(12px * var(--lab-type-scale));white-space:nowrap}
+.environment-shell-ui .lab-panel-heading p{font-size:calc(12px * var(--lab-type-scale));margin:6px 0 calc(16px * var(--lab-type-scale))}
+.environment-panel-content:has(>.environment-shell-ui)>.environment-stepbar{top:var(--lab-panel-inset);right:var(--lab-panel-inset);left:auto;height:calc(32px * var(--lab-type-scale))}
+.environment-panel-content:has(>.environment-shell-ui)>.environment-stepbar .environment-current-step{display:none}
+.environment-panel-content:has(>.environment-shell-ui) .environment-compass-trigger{height:calc(32px * var(--lab-type-scale));font-size:calc(12px * var(--lab-type-scale))}
+.environment-shell-ui .lab-product{grid-template-columns:154px minmax(0,1fr);gap:16px}
+.environment-shell-ui .lab-panel-footer{padding-top:calc(16px * var(--lab-type-scale));margin-top:calc(16px * var(--lab-type-scale))}
+.environment-shell-ui .lab-price-row{margin-bottom:calc(12px * var(--lab-type-scale))}
+.environment-shell-ui .lab-selected-product{margin-bottom:20px;padding:18px}
+.environment-shell-ui .lab-selected-product h3{margin:0 0 6px}
+.environment-shell-ui .lab-selected-product p{margin:0 0 12px}
+.environment-shell-ui .lab-part{margin-bottom:24px}
+.environment-shell-ui .lab-part h3{margin-bottom:12px}
+.lab-account-drawer .lab-account-body{gap:22px}
+.lab-account-drawer .lab-account-fields{gap:12px}
+.lab-account-drawer .lab-account-section h3{margin-bottom:16px}
+.lab-account-drawer .lab-account-local-note{margin-top:16px}
+.lab-account-drawer .lab-account-entry{margin-top:18px}
+.environment-review-panel [data-name="CUSTOM LAB / NAMING MODULE"]{position:relative!important;inset:auto!important;min-height:0;display:flex;flex-direction:column;gap:10px;flex:none;margin-bottom:6px}
+.environment-review-panel [data-name="CUSTOM LAB / NAMING MODULE"]>[data-name]{position:relative!important;inset:auto!important;width:100%!important;height:auto!important;overflow:visible!important}
+.environment-review-panel [data-name="CUSTOM LAB / NAME CONTENT"]{width:auto!important;height:auto!important;min-width:0;flex:1;overflow:visible!important}
+.environment-review-panel [data-name="CUSTOM LAB / NAME CONTENT"]>.text,.environment-review-panel [data-name="CUSTOM LAB / NAME EDIT"]{width:auto!important;height:auto!important;line-height:1.5!important}
+.environment-review-panel [data-name="CUSTOM LAB / NAME EDIT"]{white-space:nowrap}
+.environment-review-panel [data-name="CUSTOM LAB / CATALOGUE CONTENT"]>div:has([data-name="CUSTOM LAB / OPTION IMAGE"]){min-height:0;padding:14px!important;gap:16px!important}
+.environment-review-panel [data-name="CUSTOM LAB / OPTION IMAGE"]{width:112px!important;height:108px!important;align-self:flex-start!important}
+.environment-review-panel [data-name="选项 / 名称说明与价格"]{min-height:108px;gap:5px!important;display:grid!important;grid-template-columns:minmax(0,1fr) auto;align-items:start!important}
+.environment-review-panel [data-name="CUSTOM LAB / IMAGE OPTION LABEL"]{font-size:calc(14.4px * var(--lab-type-scale))!important}
+.environment-review-panel [data-name="CUSTOM LAB / IMAGE OPTION PRICE"]{grid-column:2;grid-row:1;font-size:calc(14.4px * var(--lab-type-scale))!important;text-align:right!important;width:auto!important;white-space:nowrap}
+.environment-review-panel [data-name="商品 / 材质工艺与适配说明"]{grid-column:1/-1}
+.environment-review-panel [data-name="选项 / 名称说明与价格"]>[data-name^="选择商品"]{grid-column:1/-1;margin-top:3px;min-height:28px}
+.environment-review-panel .lab-review-line{position:relative;display:flex;flex:none;align-items:flex-start;border:1px solid #dedee1;border-radius:10px;gap:16px}
+.environment-review-panel .lab-review-line>[data-name="CUSTOM LAB / OPTION IMAGE"]{position:relative;flex:none;display:block;border-radius:8px;overflow:hidden;background:#e9eaec}
+.environment-review-panel .lab-review-line [data-name="选项 / 名称说明与价格"]{position:relative;flex:1;min-width:0}
+.environment-review-panel .lab-review-line .text{position:relative;display:block;font-size:calc(12px * var(--lab-type-scale));line-height:1.6;color:#7a7a80}
+.environment-review-panel .lab-review-line [data-name="CUSTOM LAB / IMAGE OPTION LABEL"]{color:#141416}
+.environment-review-panel .lab-review-line .lab-select{justify-self:start;font-size:calc(12px * var(--lab-type-scale))}
+@media(max-width:650px){
+ .environment-header{padding:16px;gap:12px}.environment-logo{width:50px}.environment-header nav{gap:8px}
+ .environment-immersive .environment-heading{padding:6px 20px}.environment-immersive .environment-heading h1{font-size:24px}
+ .lab-environment:not(.environment-immersive) .environment-handle{right:calc(var(--panel-width) - 42px);top:auto;bottom:18px;width:30px;height:30px;transform:none;z-index:7}
+ .lab-environment:not(.environment-immersive) .environment-handle::after{display:none}
+ .environment-flow-panel{padding-bottom:calc(58px * var(--lab-type-scale))!important}
+ .environment-shell-ui>.lab-panel{padding-bottom:calc(58px * var(--lab-type-scale))}
+}
+
+/* One shared heading across catalogue steps; source text keeps its bindings. */
+.environment-flow-panel .lab-catalogue-heading{flex:none;display:flex;flex-direction:column;gap:calc(8px * var(--lab-type-scale,1));padding:calc(2px * var(--lab-type-scale,1)) 0 calc(16px * var(--lab-type-scale,1));margin-bottom:calc(8px * var(--lab-type-scale,1));border-bottom:1px solid var(--u-line)}
+.environment-flow-panel .lab-catalogue-heading [data-name="CUSTOM LAB / CATALOGUE HEADER"]{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:calc(12px * var(--lab-type-scale,1))!important;padding:0!important;flex-wrap:wrap}
+.environment-flow-panel .lab-catalogue-heading [data-name="CUSTOM LAB / CATALOGUE TITLE"],.environment-shell-ui .lab-panel-heading h2{position:relative!important;inset:auto!important;max-width:100%;min-width:0;margin:0!important;font-family:var(--u-font)!important;font-size:calc(21px * var(--lab-type-scale,1))!important;font-weight:600!important;line-height:1.4!important;letter-spacing:0!important;color:var(--u-ink)!important}
+.environment-flow-panel .lab-catalogue-heading [data-name="CUSTOM LAB / CATALOGUE META"],.environment-panel .environment-shell-ui .lab-panel-heading p{margin:0!important;padding:0!important;white-space:normal!important;overflow-wrap:anywhere;font-family:var(--u-font)!important;font-size:calc(12px * var(--lab-type-scale,1))!important;line-height:1.7!important;color:var(--u-muted)!important}
+.lab-catalogue-heading .lab-material-inspect{flex:none;gap:calc(6px * var(--lab-type-scale,1));min-height:calc(36px * var(--lab-type-scale,1));padding:calc(7px * var(--lab-type-scale,1)) calc(12px * var(--lab-type-scale,1));font-family:var(--u-font);font-size:calc(12px * var(--lab-type-scale,1));line-height:1.4;text-decoration:none}
+.lab-catalogue-heading .lab-material-inspect svg{width:calc(16px * var(--lab-type-scale,1));height:calc(16px * var(--lab-type-scale,1))}
+.environment-panel .environment-shell-ui .lab-panel-heading{display:flex;flex-direction:column;gap:calc(8px * var(--lab-type-scale,1));margin:calc(12px * var(--lab-type-scale,1)) 0 calc(16px * var(--lab-type-scale,1));padding-bottom:calc(16px * var(--lab-type-scale,1));border-bottom:1px solid var(--u-line)}
+
+.lab-part-note{display:block;margin-top:6px;color:#85858b;font-size:calc(11px * var(--lab-type-scale))}

@@ -1,0 +1,16 @@
+/* Let the agreed UI type fit legacy fixed source boxes without moving artwork. */
+.has-retail-header [data-name="页脚 / 四列服务导航"]>[data-name="探索更多"]{min-width:calc(80px * var(--ui-scale));overflow:visible!important}
+.has-retail-header [data-node-id="823:617"]{height:auto!important}
+.has-retail-header [data-name="CUSTOM LAB / HERO COPY / PORTAL"]{overflow:visible!important}
+.has-retail-header [data-node-id="479:32"]{height:auto!important;line-height:1.3!important}
+.account-design [data-name="订单基本信息"],.account-design [data-name="商品信息"],.account-design [data-name="商品与操作"],.account-design [data-name="订单操作"]{overflow:visible!important}
+.account-design [data-name="订单 / 状态筛选"]>.text{height:auto!important}
+@media(min-width:900px) and (max-width:1100px){
+ /* Three support cards retain their shared row and frame height. Compact the
+    internal gaps so a two-line description and the 42px action both fit. */
+ .has-retail-header>[data-name="支持 / 软件与驱动"],.has-retail-header>[data-name="支持 / 我的设备"],.has-retail-header>[data-name="支持 / 售后服务"]{padding:calc(16px * var(--ui-scale))!important;gap:calc(8px * var(--ui-scale))!important}
+ .has-retail-header>[data-name="支持 / 软件与驱动"]>.text,.has-retail-header>[data-name="支持 / 我的设备"]>.text,.has-retail-header>[data-name="支持 / 售后服务"]>.text{width:100%!important;height:auto!important}
+ .has-retail-header>[data-name="支持 / 软件与驱动"]>[data-ui-control="button"],.has-retail-header>[data-name="支持 / 我的设备"]>[data-ui-control="button"],.has-retail-header>[data-name="支持 / 售后服务"]>[data-ui-control="button"]{margin-top:auto}
+ .has-retail-header>[data-name="支持 / 联系顾问"]{padding:calc(12px * var(--ui-scale)) calc(24px * var(--ui-scale))!important;gap:calc(8px * var(--ui-scale))!important}
+ .has-retail-header>[data-name="支持 / 联系顾问"]>.text{width:100%!important;height:auto!important}
+}

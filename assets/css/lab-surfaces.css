@@ -1,0 +1,59 @@
+/* Content-sized notices and selectors share the lab's quiet white surface. */
+.overlay-backdrop.lab-message-backdrop{padding:24px;background:#20202738;overflow:hidden}
+.overlay-stage.lab-message-stage{width:min(560px,100%);height:auto;max-height:100%;flex:none}
+.supplement.lab-message{width:100%;height:auto;max-height:calc(100dvh - 48px);padding:28px;border:1px solid #e1e1e5;border-radius:12px;background:#fff;box-shadow:0 18px 60px #1616211a;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#cacacd transparent;transform:none!important}
+.lab-message h1{font-size:22px;font-weight:500;line-height:32px;margin:0 34px 14px 0;overflow-wrap:anywhere}
+.lab-message>p{font-size:14px;line-height:1.85;color:#75757d;white-space:pre-line;margin:0;overflow-wrap:anywhere}
+.lab-message .supplement-close{display:grid;place-items:center;top:24px;right:23px;width:32px;height:32px;padding:6px;border:0;border-radius:7px;background:transparent;color:#717179}
+.lab-message .supplement-close svg{width:20px;height:20px}
+.lab-message .supplement-close:hover{background:#f3f3f4;color:#111}
+.lab-message form{margin:0}
+.lab-message form>label,.lab-message form>.lab-message-field-label{margin:22px 0 8px;font-size:13px;line-height:20px;font-weight:400;color:#595961;gap:8px}
+.lab-message form>p:not(.lab-message-field-label){font-size:14px;margin:18px 0 0;line-height:1.8}
+.lab-message input,.lab-message textarea{font-size:14px;line-height:22px;color:#29292f;border:1px solid #dcdce1;border-radius:8px;padding:10px 12px;background:#fff;min-height:42px;width:100%;max-width:100%}
+.lab-message input:hover,.lab-message textarea:hover{border-color:#a7a7b0}
+.lab-message footer{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:10px;margin-top:26px}
+.lab-message footer button{flex:none;width:auto;min-width:0;min-height:40px;padding:9px 20px;border:1px solid #d9d9df;border-radius:8px;background:#fff;color:#55555e;font-size:14px;line-height:20px;text-align:center;white-space:normal;overflow-wrap:anywhere;max-width:100%}
+.lab-message footer button.primary{background:#17171b;border-color:#17171b;color:#fff}
+.lab-message footer button:not(.primary):hover{border-color:#92929b;background:#fafafa}
+.lab-pending-panel{margin-top:18px;padding:16px;border:1px solid #dedfe3;border-radius:10px;background:#f8f8f9}
+.lab-pending-panel h2{margin:0 0 11px;font-size:13px;font-weight:500;line-height:1.5;color:#33363c}
+.lab-pending-panel h2:not(:first-child){margin-top:17px}
+.lab-pending-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.lab-pending-step{display:flex;align-items:center;justify-content:space-between;min-height:38px;padding:8px 11px;border:1px solid #e1e2e5;border-radius:7px;background:#fff;color:#33363c;font:inherit;font-size:12px;line-height:1.4;text-align:left;cursor:pointer}
+.lab-pending-step:hover{border-color:#91969d;background:#fdfdfd}
+.lab-pending-step.is-static{cursor:default;background:#fff}
+.lab-pending-step.is-static:hover{border-color:#e1e2e5;background:#fff}
+.lab-pending-step:focus-visible{outline:2px solid #555;outline-offset:2px}
+.screen-shell:has(>.screen.lab-message){display:grid;place-items:center;padding:24px;min-height:100dvh}
+.screen.lab-message{width:min(560px,100%)}
+.lab-select-control{display:block;position:relative;min-width:0;max-width:100%;font-family:'Noto Sans SC',sans-serif}
+.lab-select-trigger{box-sizing:border-box;display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:42px;width:100%;padding:10px 12px;border:1px solid #dcdce1;border-radius:8px;background:#fff;color:#35353c;font:inherit;font-size:14px;line-height:20px;text-align:left;cursor:pointer}
+.lab-select-trigger>span{min-width:0;overflow-wrap:anywhere}
+.lab-select-trigger svg{width:18px;height:18px;flex:none;color:#797980}
+.lab-select-trigger:hover,.lab-select-trigger[aria-expanded=true]{border-color:#9999a2;color:#151519}
+.lab-select-trigger[aria-expanded=true] svg{transform:rotate(180deg)}
+.lab-select-trigger:focus-visible{outline:2px solid #555;outline-offset:3px}
+.lab-filters{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 18px}
+.lab-select-control.is-compact{flex:0 1 auto}
+.is-compact .lab-select-trigger{min-height:36px;gap:10px;width:auto;max-width:100%;padding:7px 10px;font-size:15px;line-height:20px;border-color:transparent;border-radius:7px}
+.is-compact .lab-select-trigger[data-filtered=true]{background:#f6f6f7;border-color:#e5e5e9}
+.is-compact .lab-select-trigger:hover,.is-compact .lab-select-trigger[aria-expanded=true]{border-color:#d4d4db;background:#fafafa}
+.lab-select-menu{box-sizing:border-box;position:fixed;inset:auto;margin:0;padding:6px;border:1px solid #dcdce2;border-radius:9px;background:#fff;color:#303036;box-shadow:0 8px 24px #15152114;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#cacacd transparent;z-index:1100;font-family:'Noto Sans SC',sans-serif}
+.lab-select-menu::backdrop{background:transparent}
+.lab-select-option{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:40px;padding:9px 10px;border:0;border-radius:5px;background:#fff;color:#64646d;font:inherit;font-size:14px;line-height:22px;text-align:left;cursor:pointer}
+.lab-select-option svg{width:18px;height:18px;flex:none;visibility:hidden;color:#333}
+.lab-select-option[aria-selected=true]{color:#16161b}
+.lab-select-option[aria-selected=true] svg{visibility:visible}
+.lab-select-option.is-highlighted,.lab-select-option:hover{background:#f3f3f5;color:#17171c}
+.lab-summary-backdrop .config-summary-close{border-radius:8px}
+.lab-summary-backdrop .config-summary-continue{height:44px;border-radius:8px;font-size:14px}
+.lab-summary-backdrop .config-summary-header h2{font-size:22px}
+@media(max-width:600px){
+ .overlay-backdrop.lab-message-backdrop{padding:16px}
+ .supplement.lab-message{max-height:calc(100dvh - 32px);padding:24px}
+ .lab-message h1{font-size:21px;line-height:30px}
+ .lab-message .supplement-close{top:22px;right:19px}
+ .lab-message footer{margin-top:24px}
+ .lab-pending-list{grid-template-columns:1fr}
+}

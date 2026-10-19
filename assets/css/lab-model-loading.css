@@ -1,0 +1,19 @@
+.environment-loading-ring{justify-items:center;gap:0;color:#28282b;font-family:'Noto Sans SC',sans-serif}
+.model-load-meter{position:relative;width:96px;height:96px;margin-bottom:22px}
+.model-load-meter svg{display:block;width:100%;height:100%;overflow:visible;transform:rotate(-90deg)}
+.model-load-meter circle{fill:none;stroke-width:2.5}
+.model-load-track{stroke:#cfd0d0}
+.model-load-progress{stroke:#222326;stroke-linecap:round;stroke-dasharray:100;stroke-dashoffset:100;transition:stroke-dashoffset .22s ease-out}
+.model-load-number{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;gap:3px;font:400 23px/1 Arial,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-.025em}
+.model-load-number small{align-self:center;font-size:11px;letter-spacing:0;color:#626366;margin-top:5px}
+.model-load-label{margin:0;font-size:13px;line-height:1.6;letter-spacing:.02em}
+.model-load-detail{margin:7px 0 0;min-height:18px;font-size:11px;line-height:1.6;color:#838488;font-variant-numeric:tabular-nums}
+.environment-loading-ring [data-retry]{margin-top:18px;padding:9px 20px;border:1px solid #a7a8aa;border-radius:999px;background:transparent;color:#222;font:inherit;font-size:12px;cursor:pointer}
+.environment-loading-ring [data-retry]:hover{background:#fff}.environment-loading-ring [data-retry][hidden]{display:none}
+.environment-loading-ring.has-error .model-load-meter{opacity:.35}
+.environment-loading-ring.is-indeterminate .model-load-progress{stroke-dasharray:22 78;stroke-dashoffset:0!important}
+.environment-loading-ring.is-indeterminate svg{animation:model-ring-wait 1.2s linear infinite}
+.environment-loading-ring.is-indeterminate .model-load-number small{display:none}
+@keyframes model-ring-wait{from{transform:rotate(-90deg)}to{transform:rotate(270deg)}}
+@media(max-width:600px){.model-load-meter{width:84px;height:84px;margin-bottom:18px}.model-load-number{font-size:21px}}
+@media(prefers-reduced-motion:reduce){.environment-loading-ring svg{animation:none!important}.model-load-progress{transition:none}}
