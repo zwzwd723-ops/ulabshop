@@ -376,3 +376,12 @@
 .lab-environment.rgb-night .environment-action-dock .dock-inline-steps button[aria-current=step] .dock-inline-warning{background:#20242a}
 @media(max-width:1050px){.lab-environment .environment-action-dock .dock-stage-region{grid-column:1/-1;grid-row:1;height:52px}}
 @media(max-width:650px){.lab-environment .environment-action-dock .dock-stage-region{height:50px}.lab-environment .environment-action-dock .dock-missing-reminder{min-width:92px;font-size:9px}.dock-stage-missing-count{min-width:12px;height:12px;padding:0 2px;font-size:8px}}
+
+/* Laboratory icon family: inherited state colors, stable optical sizes. */
+.lab-icon{display:block;flex:none}
+.environment-header [data-help]{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;white-space:nowrap}
+.lab-compass-trigger-chevron{display:flex;align-items:center;margin-left:2px;line-height:1;transform:none}
+.lab-compass-trigger .lab-compass-trigger-chevron svg,.lab-flow-header .environment-compass-trigger .lab-compass-trigger-chevron svg{width:14px;height:14px}
+.lab-compass-step-mark .lab-icon{width:14px;height:14px}
+.environment-immersive .environment-handle-arrow{transform:translateX(18px) scaleX(-1)}
+.environment-catalog header button,.lab-photo-dialog [data-close]{display:grid;place-items:center;min-width:44px;min-height:44px;padding:0}
