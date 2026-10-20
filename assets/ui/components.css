@@ -118,3 +118,19 @@
 .u-sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
 @media(max-width:420px){.u-product-card{grid-template-columns:82px minmax(0,1fr);padding:14px;gap:12px}.u-product-image{width:82px;height:118px}.u-product-content h3{font-size:14px}.u-product-actions{gap:4px}.u-product-actions .u-button{padding-inline:11px}.u-stepper{gap:8px}.u-step{font-size:12px;gap:7px}.u-dialog{padding:20px}}
 @media(prefers-reduced-motion:reduce){:where(.u-button,.u-icon-button,.u-switch,.u-tab,.u-swatch,.u-step,.u-switch-track,.u-switch-track::after,.u-product-card){transition:none}.u-dialog[open]{animation:none}.u-spinner{animation:none!important}}
+
+/* Native radio choice cards: shared form primitive, content supplied by caller. */
+.u-choice{display:block;position:relative;min-width:0;cursor:pointer;color:var(--u-ink);font:14px/1.5 var(--u-font)}
+.u-choice>input{position:absolute;width:1px;height:1px;opacity:0;left:50%;top:50%;margin:0}
+.u-choice-body{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:76px;box-sizing:border-box;padding:16px;border:1px solid var(--u-line);border-radius:var(--u-radius-md);background:var(--u-surface);transition:background var(--u-motion) var(--u-ease),border-color var(--u-motion) var(--u-ease),box-shadow var(--u-motion) var(--u-ease)}
+.u-choice-copy{display:grid;gap:4px;min-width:0}
+.u-choice-label{font-size:14px;font-weight:500;line-height:1.5}
+.u-choice-detail{font-size:12px;line-height:1.5;color:var(--u-muted);font-variant-numeric:tabular-nums}
+.u-choice-mark{display:grid;place-items:center;flex:none;width:18px;height:18px;border:1px solid var(--u-line-strong);border-radius:50%;color:transparent;background:var(--u-surface);transition:background var(--u-motion),border-color var(--u-motion),color var(--u-motion)}
+.u-choice-mark svg{width:12px;height:12px;display:block}
+.u-choice:hover .u-choice-body{border-color:var(--u-line-strong);background:var(--u-surface-soft)}
+.u-choice>input:checked+.u-choice-body{border-color:var(--u-ink);background:var(--u-surface-soft);box-shadow:inset 0 0 0 .5px var(--u-ink)}
+.u-choice>input:checked+.u-choice-body .u-choice-mark{background:var(--u-action);border-color:var(--u-action);color:var(--u-on-action)}
+.u-choice>input:focus-visible+.u-choice-body{outline:2px solid var(--u-focus);outline-offset:4px}
+.u-choice>input:disabled+.u-choice-body{opacity:.45;cursor:not-allowed}
+@media(prefers-reduced-motion:reduce){.u-choice-body,.u-choice-mark{transition:none}}
