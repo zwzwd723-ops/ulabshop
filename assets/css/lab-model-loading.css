@@ -17,3 +17,5 @@
 @keyframes model-ring-wait{from{transform:rotate(-90deg)}to{transform:rotate(270deg)}}
 @media(max-width:600px){.model-load-meter{width:84px;height:84px;margin-bottom:18px}.model-load-number{font-size:21px}}
 @media(prefers-reduced-motion:reduce){.environment-loading-ring svg{animation:none!important}.model-load-progress{transition:none}}
+
+.environment-loading-ring .model-load-detail{max-width:300px;padding-inline:16px;text-align:center}
