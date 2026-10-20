@@ -1,0 +1,5 @@
+GSAP 3.15.0
+Publisher: GreenSock
+Source: https://registry.npmjs.org/gsap/-/gsap-3.15.0.tgz
+Package license: Standard 'no charge' license: https://gsap.com/standard-license.
+The official distribution's copyright and license banner is preserved in gsap.js.

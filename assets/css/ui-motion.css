@@ -1,0 +1,13 @@
+/* GSAP owns only marked surfaces. Existing page and 3D transforms stay intact. */
+[data-gsap-backdrop]{animation:none!important}
+[data-gsap-surface],[data-gsap-surface] .site-drawer,[data-gsap-surface] .site-menu-drawer,[data-gsap-surface] .site-menu-row,[data-gsap-surface] .site-menu-utilities{animation:none!important}
+[data-motion-closing]{pointer-events:none}
+.has-motion-indicator{position:relative;isolation:isolate}
+.has-motion-indicator>[role=tab]{position:relative;z-index:1}
+.has-motion-indicator>[role=tab][aria-selected=true]{background:transparent!important;border-color:transparent!important;box-shadow:none!important}
+.has-motion-indicator>.u-motion-indicator{position:absolute;left:0;top:0;z-index:0;pointer-events:none;border:1px solid var(--u-line);border-radius:var(--u-radius-sm);background:var(--u-surface);box-shadow:0 1px 3px #20212408}
+@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+ .bag-media img,.pc-line-visual img{transition:transform 240ms cubic-bezier(.2,.7,.2,1)}
+ .bag-item:hover .bag-media img,.pc-order-item:hover .pc-line-visual img{transform:scale(1.035)}
+}
+@media(prefers-reduced-motion:reduce){.u-motion-indicator,.bag-media img,.pc-line-visual img{transition:none!important}}
