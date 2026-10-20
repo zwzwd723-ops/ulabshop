@@ -1,4 +1,4 @@
-import {renderSiteMenu} from './site-menu.js';
+import {renderSiteMenu} from './site-menu.js?v=20261020-home';
 
 // Use the site's own menu renderer; the supplier form keeps its independent
 // form state while links return to the existing site routes and overlays.

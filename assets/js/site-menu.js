@@ -15,8 +15,15 @@ export function renderSiteMenu({navigate,openOverlay,close,current}){
  const header=element('header','site-menu-header'),closeButton=element('button','site-menu-close');
  closeButton.type='button';closeButton.setAttribute('aria-label','关闭菜单');closeButton.innerHTML=closeIcon;closeButton.append(element('span','','关闭'));closeButton.onclick=close;header.append(closeButton);
  const body=element('div','site-menu-body'),nav=element('nav','site-menu-primary');nav.setAttribute('aria-label','主导航');
+ const showHome=current!=='666:630';
+ if(showHome){
+  const home=element('a','site-menu-row site-menu-home');home.href='#/';
+  home.append(element('span','site-menu-label','返回首页'),chevron());
+  home.onclick=event=>{if(event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;event.preventDefault();navigate('666:630');};
+  nav.append(home);
+ }
  for(const [index,[label,id,path]]of items.entries()){
-  const link=element('a','site-menu-row'+(index<2?' site-menu-featured':''));link.href='#'+path;link.style.setProperty('--menu-delay',index*22+'ms');
+  const link=element('a','site-menu-row'+(index<2?' site-menu-featured':'')+(index===1?' site-menu-featured-end':'')+(index===2?' site-menu-section-start':''));link.href='#'+path;link.style.setProperty('--menu-delay',(index+Number(showHome))*22+'ms');
   link.append(element('span','site-menu-label',label),chevron());
   if(current===id||(index===0&&(current?.startsWith('shop:')||['1395:1741','51:2','801:512'].includes(current)))||(index===1&&location.hash.startsWith('#/lab')))link.setAttribute('aria-current','page');
   link.onclick=event=>{if(event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;event.preventDefault();navigate(id);};
