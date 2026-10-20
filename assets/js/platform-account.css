@@ -375,3 +375,43 @@
  :is(.account-workspace,.pa-dialog) .u-button:active{transform:none}
  .account-workspace .pc-root :is(.pc-button,.pc-text-button,.pc-tab,.pc-search){transition:none;scroll-behavior:auto}
 }
+
+
+/* Account record panels share content, empty-state and action slots. */
+.account-workspace .pa-home-panels{gap:24px}
+.account-workspace .pa-record-panel{padding:24px;overflow:hidden}
+.account-workspace .pa-record-panel .pa-section-heading{margin:0;padding-bottom:20px;border-bottom:1px solid var(--u-line)}
+.account-workspace .pa-record-panel .pa-section-heading h2{font-size:18px;line-height:1.5}
+.account-workspace .pa-record-content{display:flex;flex:1;flex-direction:column;min-width:0;padding-top:24px}
+.account-workspace .pa-record-empty.u-empty{display:grid;grid-template-columns:56px minmax(0,1fr);grid-template-rows:auto 1fr;align-content:start;align-items:start;justify-items:start;gap:18px 20px;min-height:164px;padding:0;text-align:left;flex:1}
+.account-workspace .pa-record-illustration{display:grid;place-items:center;width:56px;height:56px;border-radius:var(--u-radius-md);background:var(--u-surface-soft);color:var(--u-muted)}
+.account-workspace .pa-record-illustration svg{display:block;width:32px;height:32px}
+.account-workspace .pa-record-copy{min-width:0}
+.account-workspace .pa-record-copy h3{margin:0 0 7px;font-size:16px;line-height:1.5}
+.account-workspace .pa-record-copy p{max-width:34em;margin:0;font-size:13px;line-height:1.8;color:var(--u-muted)}
+.account-workspace .pa-record-actions{grid-column:2;align-self:end;display:flex;align-items:center;gap:10px}
+.account-workspace .pa-record-actions>.u-button{min-height:44px;margin:0}
+.account-workspace .pa-record-content>.pa-build{padding:0 0 20px;margin:0 0 20px;border:0;border-bottom:1px solid var(--u-line);border-radius:0;background:transparent}
+.account-workspace .pa-record-content>.pa-build:last-child{padding-bottom:0;margin-bottom:0;border-bottom:0}
+.account-workspace .pa-record-content>.pa-task{gap:16px;padding:20px 0;align-items:flex-start}
+.account-workspace .pa-record-content>.pa-task:first-child{padding-top:0;border-top:0}
+.account-workspace .pa-record-content>.pa-task:last-child{padding-bottom:0}
+.account-workspace .pa-record-content .pa-actions{gap:8px}
+@media(max-width:1100px) and (min-width:701px){
+ .account-workspace .pa-record-empty.u-empty{grid-template-columns:1fr;gap:16px;min-height:216px}
+ .account-workspace .pa-record-actions{grid-column:1}
+ .account-workspace .pa-record-content>.pa-task{flex-direction:column}
+}
+@media(max-width:700px){
+ .account-workspace .pa-record-panel{padding:22px}
+ .account-workspace .pa-record-content{padding-top:20px}
+ .account-workspace .pa-record-empty.u-empty{min-height:160px;grid-template-columns:48px minmax(0,1fr);gap:16px}
+ .account-workspace .pa-record-illustration{width:48px;height:48px}
+ .account-workspace .pa-record-illustration svg{width:28px;height:28px}
+ .account-workspace .pa-record-panel .pa-section-heading{padding-bottom:18px}
+}
+@media(max-width:380px){
+ .account-workspace .pa-record-panel{padding:20px}
+ .account-workspace .pa-record-empty.u-empty{grid-template-columns:1fr;min-height:0}
+ .account-workspace .pa-record-actions{grid-column:1;margin-top:2px}
+}

@@ -1,0 +1,64 @@
+/* Order records share ULAB product content, disclosure controls and buttons. */
+.account-workspace .pc-bom-section{padding:28px;background:var(--u-surface);border:1px solid var(--u-line);border-radius:var(--u-radius-lg)}
+.pc-bom-section .pc-section-heading{margin-bottom:22px}
+.pc-bom-section .pc-table-wrap{overflow:visible}
+.pc-bom-section .pc-order-items{table-layout:fixed;width:100%;font-size:13px}
+.pc-bom-section .pc-order-items th{padding:14px 12px;background:var(--u-surface-soft);color:var(--u-muted);font-size:12px;font-weight:400;border:0}
+.pc-bom-section .pc-order-items th:first-child{width:39%;border-radius:var(--u-radius-sm) 0 0 var(--u-radius-sm)}
+.pc-bom-section .pc-order-items th:nth-child(2){width:6%;text-align:center}
+.pc-bom-section .pc-order-items th:nth-child(3),.pc-bom-section .pc-order-items th:nth-child(4),.pc-bom-section .pc-order-items th:nth-child(5){width:12%;text-align:right}
+.pc-bom-section .pc-order-items th:last-child{width:19%;padding-left:28px;border-radius:0 var(--u-radius-sm) var(--u-radius-sm) 0}
+.pc-bom-section .pc-order-items td{min-width:0;padding:24px 12px;border-color:var(--u-line);vertical-align:top;overflow-wrap:anywhere}
+.pc-bom-section .pc-order-items td:first-child{width:auto}
+.pc-bom-section .pc-line-product{display:flex;align-items:center;gap:16px;min-width:0}
+.pc-bom-section .pc-line-visual{width:84px;height:84px;flex:0 0 84px;border-radius:var(--u-radius-md);background:var(--u-surface-soft)}
+.pc-bom-section .pc-line-visual img{padding:5px;width:100%;height:100%;object-fit:contain}
+.pc-bom-section .pc-line-visual>span{font-size:12px}
+.pc-bom-section .pc-line-copy{min-width:0}
+.pc-bom-section .pc-line-copy h3{margin:0 0 6px;font-size:16px;font-weight:500;line-height:1.5}
+.pc-bom-section .pc-line-copy>.pc-muted{margin:0;font-size:12px;line-height:1.7;color:var(--u-muted)}
+.pc-bom-section .pc-line-archive{min-height:32px;padding:4px 0;margin-top:4px;font-size:12px;background:transparent;text-decoration:none}
+.pc-bom-section .pc-line-archive:hover{background:transparent;text-decoration:underline;text-underline-offset:4px}
+.pc-bom-section .pc-line-details{display:flex;flex-wrap:wrap;align-items:flex-start;gap:8px;margin:12px 0 0 100px}
+.pc-bom-section .pc-line-details details{margin:0;min-width:0;font-size:12px}
+.pc-bom-section .pc-line-details summary{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:36px;padding:6px 10px;border:1px solid var(--u-line);border-radius:var(--u-radius-sm);list-style:none;cursor:pointer;color:var(--u-ink);font-size:12px;line-height:1.5;text-decoration:none;background:var(--u-surface)}
+.pc-bom-section .pc-line-details summary::-webkit-details-marker{display:none}
+.pc-bom-section .pc-line-details summary::after{content:'';width:6px;height:6px;border:solid currentColor;border-width:0 1.5px 1.5px 0;transform:rotate(45deg) translateY(-2px);flex:none;transition:transform var(--u-motion)}
+.pc-bom-section .pc-line-details summary:hover{background:var(--u-surface-soft)}
+.pc-bom-section .pc-line-details summary:focus-visible{outline:2px solid var(--u-focus);outline-offset:3px}
+.pc-bom-section .pc-line-details details[open]{width:100%;padding-top:0}
+.pc-bom-section .pc-line-details details[open]>summary::after{transform:rotate(225deg) translate(-1px,-1px)}
+.pc-bom-section .pc-line-details .pc-pairs{grid-template-columns:72px minmax(0,1fr);padding:12px;margin:0;background:var(--u-surface-soft);border-radius:0 0 var(--u-radius-sm) var(--u-radius-sm);gap:8px 12px}
+.pc-bom-section .pc-line-details .pc-pairs dd{overflow-wrap:anywhere}
+.pc-bom-section .pc-line-details .pc-bom-row{padding:10px 0;gap:8px;line-height:1.6}
+.pc-bom-section .pc-line-quantity{text-align:center}
+.pc-bom-section .pc-line-money{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.pc-bom-section .pc-line-paid{font-weight:500}
+.pc-bom-section .pc-line-discount{color:var(--u-muted)}
+.pc-bom-section .pc-order-items .pc-line-state{padding-left:28px}
+.pc-bom-section .pc-line-status{margin:0 0 12px;font-size:13px;font-weight:500;line-height:1.5}
+.pc-bom-section .pc-line-actions{display:flex;gap:8px;flex-wrap:wrap}
+.pc-bom-section .pc-line-actions .u-button{min-height:36px;padding:6px 12px;font-size:12px;white-space:nowrap}
+@media(min-width:961px) and (max-width:1050px){.pc-bom-section .pc-line-product{align-items:flex-start;gap:10px}.pc-bom-section .pc-line-visual{width:60px;height:60px;flex-basis:60px}.pc-bom-section .pc-line-details{margin-left:0}.pc-bom-section .pc-order-items th:last-child,.pc-bom-section .pc-order-items .pc-line-state{padding-left:14px}.pc-bom-section .pc-order-items td{padding-inline:8px}}
+@media(max-width:960px){
+ .account-workspace .pc-bom-section{padding:20px}
+ .pc-bom-section .pc-section-heading{margin-bottom:18px}
+ .pc-bom-section .pc-order-items,.pc-bom-section .pc-order-items tbody{display:block}
+ .pc-bom-section .pc-order-items thead{display:none}
+ .pc-bom-section .pc-order-items tr{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);padding:22px 0;gap:16px 20px;border-bottom:1px solid var(--u-line)}
+ .pc-bom-section .pc-order-items tr:first-child{padding-top:0}
+ .pc-bom-section .pc-order-items tr:last-child{border-bottom:0;padding-bottom:0}
+ .pc-bom-section .pc-order-items td,.pc-bom-section .pc-order-items td:first-child{display:block;padding:0;width:auto;min-width:0;text-align:left;border:0}
+ .pc-bom-section .pc-order-items td:first-child{grid-column:1 / -1}
+ .pc-bom-section .pc-order-items td:not(:first-child)::before{content:attr(data-label);display:block;font-size:11px;margin-bottom:5px;color:var(--u-muted)}
+ .pc-bom-section .pc-order-items .pc-line-state{display:flex;flex-wrap:wrap;align-items:center;grid-column:1 / -1;padding:16px 0 0;border-top:1px solid var(--u-line)!important;gap:12px}
+ .pc-bom-section .pc-order-items .pc-line-state::before{display:none}
+ .pc-bom-section .pc-line-status{margin:0}
+ .pc-bom-section .pc-line-actions{margin-left:auto}
+ .pc-bom-section .pc-line-actions .u-button{min-height:44px}
+ .pc-bom-section .pc-line-visual{width:72px;height:72px;flex-basis:72px}
+ .pc-bom-section .pc-line-product{gap:12px}
+ .pc-bom-section .pc-line-details{margin-left:0}
+ .pc-bom-section .pc-line-details summary{min-height:44px}
+}
+@media(prefers-reduced-motion:reduce){.pc-bom-section .pc-line-details summary::after{transition:none}}
